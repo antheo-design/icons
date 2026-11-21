@@ -1,0 +1,58 @@
+Antheo Icons License
+Version 1.0
+
+Copyright (c) 2026 Antheo. All rights reserved except as granted below.
+
+"Icons" means the icon artwork in this repository and its packages, in any form: the React components, the SVG and
+animated SVG files, the path data, the styles and the metadata, whether used as supplied or changed.
+
+"Project" means a website, app, piece of software, game, document, video, product or other work in which the Icons
+are used as part of a larger whole, and are not the main thing being offered.
+
+
+1. What you may do
+
+Free of charge, worldwide and for as long as you follow this license, you may use, copy, change (including resize and
+recolour) and display the Icons in any number of Projects, personal or commercial, including work you do for clients,
+and distribute the Icons as part of those Projects.
+
+
+2. What you may not do
+
+a. Resell or redistribute the Icons on their own. You may not sell, license, give away or publish the Icons, changed
+   or not, as icons or as the main value of a product: for example as an icon set, icon pack, icon font, component
+   library, design system, UI kit, template, design-asset bundle, or on a marketplace or asset site.
+
+b. Compete with them. You may not include the Icons in a product or service whose purpose is to provide icons,
+   illustrations or design assets to others, or that lets others make icons in the same style.
+
+c. Train on them or copy their style. You may not use the Icons to train, fine-tune or evaluate machine-learning
+   models, or use them as a source or reference to make other icons, sets or generators that imitate their look.
+
+d. Claim them. You may not present the Icons as your own work, or remove this license from copies of this
+   repository or its packages.
+
+e. Use the name. This license does not let you use the name or marks of Antheo to promote anything.
+
+
+3. Keeping the notice
+
+If you redistribute this repository or its packages' source as allowed above (for example inside a Project's own
+source code), keep this license with it. Projects do not need to credit Antheo in their interface, though it is
+always welcome.
+
+
+4. Ending
+
+If you break this license, your rights under it end automatically. They come back if you stop within 30 days of
+learning of the breach and it was your first.
+
+
+5. No warranty
+
+The Icons are provided "as is", without warranty of any kind. Antheo is not liable for any claim, damage or other
+liability arising from the Icons or their use.
+
+
+For anything this license does not allow (a different use, a larger licence, or Antheo's other icon families and
+tools), see https://antheo.studio.

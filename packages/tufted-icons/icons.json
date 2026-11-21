@@ -1,0 +1,3357 @@
+{
+  "count": 281,
+  "yarns": {
+    "tomato": {
+      "tile": "#FF5A1F",
+      "ink": "#FFF3E4",
+      "color": "#2E5BFF"
+    },
+    "magenta": {
+      "tile": "#F8A6DE",
+      "ink": "#E5103C",
+      "color": "#FFF3F9"
+    },
+    "sun": {
+      "tile": "#FFD21A",
+      "ink": "#1A1714",
+      "color": "#FF5A1F"
+    },
+    "lime": {
+      "tile": "#D3F51A",
+      "ink": "#151412",
+      "color": "#FFFFFF"
+    },
+    "cobalt": {
+      "tile": "#2E5BFF",
+      "ink": "#FFF3E4",
+      "color": "#FF5A1F"
+    },
+    "violet": {
+      "tile": "#BDF0F2",
+      "ink": "#6A3AFF",
+      "color": "#F79AD8"
+    },
+    "sky": {
+      "tile": "#8DD6FF",
+      "ink": "#15213C",
+      "color": "#FFE04A"
+    },
+    "mint": {
+      "tile": "#17A657",
+      "ink": "#FF3B2C",
+      "color": "#FFE6DC"
+    },
+    "peach": {
+      "tile": "#FFC7AE",
+      "ink": "#7A1E11",
+      "color": "#FF7A45"
+    },
+    "lilac": {
+      "tile": "#CDB7FF",
+      "ink": "#29135C",
+      "color": "#FF8FCB"
+    }
+  },
+  "icons": [
+    {
+      "name": "abacus",
+      "component": "Abacus",
+      "category": "Learning",
+      "tags": [
+        "count",
+        "math",
+        "numbers",
+        "calculate"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "agent",
+      "component": "Agent",
+      "category": "AI & Agents",
+      "tags": [
+        "bot",
+        "autonomous",
+        "runs",
+        "assistant"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "alarm",
+      "component": "Alarm",
+      "category": "Time",
+      "tags": [
+        "alert",
+        "wake",
+        "reminder",
+        "timer"
+      ],
+      "move": "ring"
+    },
+    {
+      "name": "archive",
+      "component": "Archive",
+      "category": "Files",
+      "tags": [
+        "box",
+        "storage",
+        "zip"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "arrow-down",
+      "component": "ArrowDown",
+      "category": "Arrows",
+      "tags": [
+        "down",
+        "south",
+        "bottom"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "arrow-left",
+      "component": "ArrowLeft",
+      "category": "Arrows",
+      "tags": [
+        "left",
+        "west",
+        "back",
+        "previous"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "arrow-right",
+      "component": "ArrowRight",
+      "category": "Arrows",
+      "tags": [
+        "right",
+        "east",
+        "next",
+        "forward"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "arrow-up",
+      "component": "ArrowUp",
+      "category": "Arrows",
+      "tags": [
+        "up",
+        "north",
+        "top"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "astronaut",
+      "component": "Astronaut",
+      "category": "Space",
+      "tags": [
+        "space",
+        "explorer",
+        "helmet",
+        "cosmonaut"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "atom",
+      "component": "Atom",
+      "category": "Learning",
+      "tags": [
+        "science",
+        "physics",
+        "particle",
+        "nucleus"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "avocado",
+      "component": "Avocado",
+      "category": "Food",
+      "tags": [
+        "fruit",
+        "guacamole",
+        "healthy",
+        "fresh"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "backpack",
+      "component": "Backpack",
+      "category": "Learning",
+      "tags": [
+        "school",
+        "bag",
+        "student",
+        "travel"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "bag",
+      "component": "Bag",
+      "category": "Commerce",
+      "tags": [
+        "shopping",
+        "purchase",
+        "tote",
+        "shop"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "ball",
+      "component": "Ball",
+      "category": "Play",
+      "tags": [
+        "beach",
+        "summer",
+        "sport",
+        "bounce"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "balloon",
+      "component": "Balloon",
+      "category": "Feelings",
+      "tags": [
+        "party",
+        "birthday",
+        "float",
+        "celebrate"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "bar-chart",
+      "component": "BarChart",
+      "category": "Data",
+      "tags": [
+        "chart",
+        "graph",
+        "stats",
+        "analytics",
+        "report"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "battery",
+      "component": "Battery",
+      "category": "Devices",
+      "tags": [
+        "power",
+        "charge",
+        "energy",
+        "level"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "beacon",
+      "component": "Beacon",
+      "category": "AI & Agents",
+      "tags": [
+        "lighthouse",
+        "signal",
+        "guide",
+        "broadcast"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "bell",
+      "component": "Bell",
+      "category": "Interface",
+      "tags": [
+        "notification",
+        "alert"
+      ],
+      "move": "ring"
+    },
+    {
+      "name": "bicycle",
+      "component": "Bicycle",
+      "category": "Hobbies",
+      "tags": [
+        "bike",
+        "ride",
+        "cycle",
+        "commute"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "bluetooth",
+      "component": "Bluetooth",
+      "category": "Devices",
+      "tags": [
+        "wireless",
+        "pair",
+        "connect"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "bolt",
+      "component": "Bolt",
+      "category": "Weather",
+      "tags": [
+        "lightning",
+        "energy",
+        "fast",
+        "flash",
+        "power"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "book-open",
+      "component": "BookOpen",
+      "category": "Learning",
+      "tags": [
+        "read",
+        "study",
+        "story",
+        "learn"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "bookmark",
+      "component": "Bookmark",
+      "category": "Interface",
+      "tags": [
+        "save",
+        "ribbon",
+        "read later"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "bookshelf",
+      "component": "Bookshelf",
+      "category": "Learning",
+      "tags": [
+        "library",
+        "books",
+        "reading",
+        "shelf"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "brain",
+      "component": "Brain",
+      "category": "Ideas",
+      "tags": [
+        "mind",
+        "think",
+        "smart"
+      ],
+      "move": "beat"
+    },
+    {
+      "name": "briefcase",
+      "component": "Briefcase",
+      "category": "Work",
+      "tags": [
+        "job",
+        "business",
+        "portfolio",
+        "career"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "broken-heart",
+      "component": "BrokenHeart",
+      "category": "Feelings",
+      "tags": [
+        "sad",
+        "breakup",
+        "heartbreak",
+        "hurt"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "bubble-tea",
+      "component": "BubbleTea",
+      "category": "Food",
+      "tags": [
+        "boba",
+        "milk tea",
+        "drink",
+        "cafe"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "building",
+      "component": "Building",
+      "category": "Places",
+      "tags": [
+        "office",
+        "city",
+        "company",
+        "tower"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "bunting",
+      "component": "Bunting",
+      "category": "Celebrate",
+      "tags": [
+        "party",
+        "flags",
+        "banner",
+        "festival"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "butterfly",
+      "component": "Butterfly",
+      "category": "Nature",
+      "tags": [
+        "insect",
+        "spring",
+        "change",
+        "transform"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "cactus",
+      "component": "Cactus",
+      "category": "Nature",
+      "tags": [
+        "desert",
+        "succulent",
+        "plant",
+        "prickly"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "cake",
+      "component": "Cake",
+      "category": "Celebrate",
+      "tags": [
+        "birthday",
+        "dessert",
+        "party",
+        "bake"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "calendar",
+      "component": "Calendar",
+      "category": "Time",
+      "tags": [
+        "date",
+        "schedule",
+        "event"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "camera",
+      "component": "Camera",
+      "category": "Media",
+      "tags": [
+        "photo",
+        "picture",
+        "snapshot"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "candle",
+      "component": "Candle",
+      "category": "Celebrate",
+      "tags": [
+        "birthday",
+        "light",
+        "flame",
+        "wish"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "car",
+      "component": "Car",
+      "category": "Places",
+      "tags": [
+        "vehicle",
+        "drive",
+        "auto",
+        "transport"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "cards",
+      "component": "Cards",
+      "category": "Play",
+      "tags": [
+        "playing cards",
+        "poker",
+        "game",
+        "deck"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "cart",
+      "component": "Cart",
+      "category": "Commerce",
+      "tags": [
+        "basket",
+        "shopping",
+        "buy",
+        "checkout"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "chalkboard",
+      "component": "Chalkboard",
+      "category": "Learning",
+      "tags": [
+        "teach",
+        "lesson",
+        "class",
+        "board"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "chat",
+      "component": "Chat",
+      "category": "Communication",
+      "tags": [
+        "message",
+        "comment",
+        "talk"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "check",
+      "component": "Check",
+      "category": "Interface",
+      "tags": [
+        "tick",
+        "done",
+        "ok",
+        "confirm"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "checklist",
+      "component": "Checklist",
+      "category": "Work",
+      "tags": [
+        "todo",
+        "tasks",
+        "done",
+        "list"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "cherry",
+      "component": "Cherry",
+      "category": "Food",
+      "tags": [
+        "fruit",
+        "berry",
+        "sweet",
+        "summer"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "chess-pawn",
+      "component": "ChessPawn",
+      "category": "Play",
+      "tags": [
+        "chess",
+        "strategy",
+        "piece",
+        "game"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "chevron-down",
+      "component": "ChevronDown",
+      "category": "Arrows",
+      "tags": [
+        "down",
+        "expand",
+        "caret",
+        "dropdown"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "chevron-left",
+      "component": "ChevronLeft",
+      "category": "Arrows",
+      "tags": [
+        "left",
+        "back",
+        "previous",
+        "caret"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "chevron-right",
+      "component": "ChevronRight",
+      "category": "Arrows",
+      "tags": [
+        "right",
+        "next",
+        "forward",
+        "caret"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "chevron-up",
+      "component": "ChevronUp",
+      "category": "Arrows",
+      "tags": [
+        "up",
+        "collapse",
+        "caret"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "chip",
+      "component": "Chip",
+      "category": "AI & Agents",
+      "tags": [
+        "processor",
+        "hardware",
+        "compute",
+        "cpu"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "clipboard",
+      "component": "Clipboard",
+      "category": "Files",
+      "tags": [
+        "paste",
+        "tasks",
+        "checklist"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "clock",
+      "component": "Clock",
+      "category": "Time",
+      "tags": [
+        "time",
+        "watch",
+        "hour",
+        "schedule"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "close",
+      "component": "Close",
+      "category": "Interface",
+      "tags": [
+        "x",
+        "cancel",
+        "dismiss"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "cloud",
+      "component": "Cloud",
+      "category": "Files",
+      "tags": [
+        "storage",
+        "sky",
+        "online",
+        "sync"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "cloud-rain",
+      "component": "CloudRain",
+      "category": "Weather",
+      "tags": [
+        "rain",
+        "shower",
+        "storm",
+        "forecast",
+        "drizzle"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "clover",
+      "component": "Clover",
+      "category": "Feelings",
+      "tags": [
+        "luck",
+        "lucky",
+        "irish",
+        "fortune"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "code",
+      "component": "Code",
+      "category": "Data",
+      "tags": [
+        "developer",
+        "programming",
+        "html",
+        "brackets",
+        "source"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "code-agent",
+      "component": "CodeAgent",
+      "category": "AI & Agents",
+      "tags": [
+        "code",
+        "developer",
+        "programming",
+        "copilot"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "coffee",
+      "component": "Coffee",
+      "category": "Work",
+      "tags": [
+        "cafe",
+        "break",
+        "drink",
+        "morning"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "coins",
+      "component": "Coins",
+      "category": "Commerce",
+      "tags": [
+        "money",
+        "cash",
+        "currency",
+        "change"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "comet",
+      "component": "Comet",
+      "category": "Space",
+      "tags": [
+        "space",
+        "tail",
+        "meteor",
+        "sky"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "compass",
+      "component": "Compass",
+      "category": "Places",
+      "tags": [
+        "direction",
+        "explore",
+        "navigate",
+        "north"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "context-window",
+      "component": "ContextWindow",
+      "category": "AI & Agents",
+      "tags": [
+        "context",
+        "prompt window",
+        "tokens",
+        "text"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "copy",
+      "component": "Copy",
+      "category": "Interface",
+      "tags": [
+        "duplicate",
+        "clone"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "crayon",
+      "component": "Crayon",
+      "category": "Making",
+      "tags": [
+        "draw",
+        "colour",
+        "kids",
+        "scribble"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "credit-card",
+      "component": "CreditCard",
+      "category": "Commerce",
+      "tags": [
+        "payment",
+        "card",
+        "bank",
+        "pay"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "crown",
+      "component": "Crown",
+      "category": "Feelings",
+      "tags": [
+        "king",
+        "queen",
+        "royal",
+        "winner"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "crystal-ball",
+      "component": "CrystalBall",
+      "category": "Ideas",
+      "tags": [
+        "future",
+        "magic",
+        "predict"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "cupcake",
+      "component": "Cupcake",
+      "category": "Food",
+      "tags": [
+        "bake",
+        "dessert",
+        "birthday",
+        "sweet"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "database",
+      "component": "Database",
+      "category": "Data",
+      "tags": [
+        "storage",
+        "server",
+        "sql",
+        "records",
+        "backend"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "dice",
+      "component": "Dice",
+      "category": "Play",
+      "tags": [
+        "game",
+        "random",
+        "luck",
+        "chance"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "donut",
+      "component": "Donut",
+      "category": "Food",
+      "tags": [
+        "doughnut",
+        "sweet",
+        "snack",
+        "treat"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "dove",
+      "component": "Dove",
+      "category": "Feelings",
+      "tags": [
+        "peace",
+        "bird",
+        "calm",
+        "hope"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "download",
+      "component": "Download",
+      "category": "Arrows",
+      "tags": [
+        "save",
+        "get"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "dropper",
+      "component": "Dropper",
+      "category": "Making",
+      "tags": [
+        "eyedropper",
+        "pick",
+        "colour",
+        "sample"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "edit",
+      "component": "Edit",
+      "category": "Interface",
+      "tags": [
+        "pencil",
+        "write",
+        "change"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "egg",
+      "component": "Egg",
+      "category": "Ideas",
+      "tags": [
+        "creative process",
+        "hatch",
+        "new"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "embedding",
+      "component": "Embedding",
+      "category": "AI & Agents",
+      "tags": [
+        "vector",
+        "semantic",
+        "space",
+        "meaning"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "envelope-heart",
+      "component": "EnvelopeHeart",
+      "category": "Celebrate",
+      "tags": [
+        "love letter",
+        "mail",
+        "valentine",
+        "invite"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "eraser",
+      "component": "Eraser",
+      "category": "Making",
+      "tags": [
+        "rub",
+        "delete",
+        "undo",
+        "clean"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "error",
+      "component": "Error",
+      "category": "Interface",
+      "tags": [
+        "stop",
+        "problem",
+        "fail",
+        "alert"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "eval",
+      "component": "Eval",
+      "category": "AI & Agents",
+      "tags": [
+        "test",
+        "benchmark",
+        "check",
+        "grade"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "expand",
+      "component": "Expand",
+      "category": "Interface",
+      "tags": [
+        "fullscreen",
+        "maximise",
+        "enlarge"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "external-link",
+      "component": "ExternalLink",
+      "category": "Interface",
+      "tags": [
+        "open",
+        "new tab",
+        "out"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "eye",
+      "component": "Eye",
+      "category": "Interface",
+      "tags": [
+        "view",
+        "visible",
+        "show",
+        "watch"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "eye-off",
+      "component": "EyeOff",
+      "category": "Interface",
+      "tags": [
+        "hide",
+        "hidden",
+        "invisible",
+        "private"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "feather",
+      "component": "Feather",
+      "category": "Nature",
+      "tags": [
+        "light",
+        "quill",
+        "write",
+        "soft"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "file",
+      "component": "File",
+      "category": "Files",
+      "tags": [
+        "document",
+        "page",
+        "sheet"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "file-text",
+      "component": "FileText",
+      "category": "Files",
+      "tags": [
+        "document",
+        "doc",
+        "notes",
+        "text"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "film",
+      "component": "Film",
+      "category": "Media",
+      "tags": [
+        "clapperboard",
+        "movie",
+        "cinema",
+        "action"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "filter",
+      "component": "Filter",
+      "category": "Interface",
+      "tags": [
+        "funnel",
+        "narrow",
+        "refine"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "fine-tune",
+      "component": "FineTune",
+      "category": "AI & Agents",
+      "tags": [
+        "tune",
+        "train",
+        "adjust",
+        "tuning fork"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "firework",
+      "component": "Firework",
+      "category": "Celebrate",
+      "tags": [
+        "new year",
+        "celebrate",
+        "spark",
+        "festival"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "flag",
+      "component": "Flag",
+      "category": "Interface",
+      "tags": [
+        "report",
+        "mark",
+        "banner"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "flame",
+      "component": "Flame",
+      "category": "Feelings",
+      "tags": [
+        "fire",
+        "hot",
+        "streak",
+        "trending"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "flask",
+      "component": "Flask",
+      "category": "Learning",
+      "tags": [
+        "science",
+        "experiment",
+        "lab",
+        "chemistry"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "flower",
+      "component": "Flower",
+      "category": "Nature",
+      "tags": [
+        "tulip",
+        "bloom",
+        "spring",
+        "garden"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "folder",
+      "component": "Folder",
+      "category": "Files",
+      "tags": [
+        "directory"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "folder-open",
+      "component": "FolderOpen",
+      "category": "Files",
+      "tags": [
+        "directory",
+        "browse",
+        "open"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "gamepad",
+      "component": "Gamepad",
+      "category": "Play",
+      "tags": [
+        "game",
+        "controller",
+        "gaming",
+        "console"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "gift",
+      "component": "Gift",
+      "category": "Celebrate",
+      "tags": [
+        "present",
+        "kit",
+        "surprise",
+        "birthday"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "globe",
+      "component": "Globe",
+      "category": "Places",
+      "tags": [
+        "world",
+        "earth",
+        "international",
+        "web",
+        "language"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "graduation-cap",
+      "component": "GraduationCap",
+      "category": "Learning",
+      "tags": [
+        "graduate",
+        "education",
+        "school",
+        "degree"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "grid",
+      "component": "Grid",
+      "category": "Interface",
+      "tags": [
+        "apps",
+        "tiles",
+        "dashboard",
+        "layout"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "growth",
+      "component": "Growth",
+      "category": "Work",
+      "tags": [
+        "chart",
+        "increase",
+        "analytics",
+        "revenue"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "guardrail",
+      "component": "Guardrail",
+      "category": "AI & Agents",
+      "tags": [
+        "safety",
+        "protect",
+        "policy",
+        "secure"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "guitar",
+      "component": "Guitar",
+      "category": "Hobbies",
+      "tags": [
+        "music",
+        "acoustic",
+        "band",
+        "strings"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "hand-off",
+      "component": "HandOff",
+      "category": "AI & Agents",
+      "tags": [
+        "handover",
+        "pass",
+        "delegate",
+        "transfer"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "headphones",
+      "component": "Headphones",
+      "category": "Media",
+      "tags": [
+        "audio",
+        "listen",
+        "music",
+        "headset"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "heart",
+      "component": "Heart",
+      "category": "Interface",
+      "tags": [
+        "like",
+        "love",
+        "favourite"
+      ],
+      "move": "beat"
+    },
+    {
+      "name": "heart-spark",
+      "component": "HeartSpark",
+      "category": "Feelings",
+      "tags": [
+        "love",
+        "like",
+        "favourite",
+        "joy"
+      ],
+      "move": "beat"
+    },
+    {
+      "name": "help",
+      "component": "Help",
+      "category": "Interface",
+      "tags": [
+        "question",
+        "support",
+        "faq"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "home",
+      "component": "Home",
+      "category": "Interface",
+      "tags": [
+        "house"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "hourglass",
+      "component": "Hourglass",
+      "category": "Time",
+      "tags": [
+        "wait",
+        "loading",
+        "sand",
+        "timer"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "ice-cream",
+      "component": "IceCream",
+      "category": "Food",
+      "tags": [
+        "dessert",
+        "cone",
+        "summer",
+        "sweet"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "id-card",
+      "component": "IdCard",
+      "category": "People",
+      "tags": [
+        "badge",
+        "identity",
+        "profile",
+        "member card"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "image",
+      "component": "Image",
+      "category": "Files",
+      "tags": [
+        "photo",
+        "picture",
+        "gallery"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "inbox",
+      "component": "Inbox",
+      "category": "Files",
+      "tags": [
+        "tray",
+        "incoming",
+        "messages",
+        "receive"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "infinity",
+      "component": "Infinity",
+      "category": "AI & Agents",
+      "tags": [
+        "loop",
+        "forever",
+        "endless",
+        "continuous"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "info",
+      "component": "Info",
+      "category": "Interface",
+      "tags": [
+        "information",
+        "about",
+        "details"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "joystick",
+      "component": "Joystick",
+      "category": "Play",
+      "tags": [
+        "arcade",
+        "game",
+        "control",
+        "retro"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "kanban",
+      "component": "Kanban",
+      "category": "Work",
+      "tags": [
+        "board",
+        "tasks",
+        "workflow",
+        "columns"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "key",
+      "component": "Key",
+      "category": "Interface",
+      "tags": [
+        "password",
+        "access",
+        "unlock"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "keyboard",
+      "component": "Keyboard",
+      "category": "Devices",
+      "tags": [
+        "keys",
+        "typing",
+        "input"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "kite",
+      "component": "Kite",
+      "category": "Play",
+      "tags": [
+        "fly",
+        "wind",
+        "outdoor",
+        "spring"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "knowledge-base",
+      "component": "KnowledgeBase",
+      "category": "AI & Agents",
+      "tags": [
+        "docs",
+        "library",
+        "wiki",
+        "knowledge"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "lantern",
+      "component": "Lantern",
+      "category": "Ideas",
+      "tags": [
+        "light",
+        "festival",
+        "glow"
+      ],
+      "move": "ring"
+    },
+    {
+      "name": "laptop",
+      "component": "Laptop",
+      "category": "Devices",
+      "tags": [
+        "computer",
+        "notebook",
+        "macbook",
+        "pc"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "layers",
+      "component": "Layers",
+      "category": "Making",
+      "tags": [
+        "stack",
+        "levels",
+        "design",
+        "depth"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "leaf",
+      "component": "Leaf",
+      "category": "Nature",
+      "tags": [
+        "plant",
+        "eco",
+        "green",
+        "autumn"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "lemon",
+      "component": "Lemon",
+      "category": "Food",
+      "tags": [
+        "citrus",
+        "fruit",
+        "sour",
+        "fresh"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "lightbulb",
+      "component": "Lightbulb",
+      "category": "Ideas",
+      "tags": [
+        "idea",
+        "thinking",
+        "inspiration"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "link",
+      "component": "Link",
+      "category": "Interface",
+      "tags": [
+        "chain",
+        "url",
+        "connect"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "list",
+      "component": "List",
+      "category": "Interface",
+      "tags": [
+        "rows",
+        "bullets",
+        "items"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "lock",
+      "component": "Lock",
+      "category": "Interface",
+      "tags": [
+        "secure",
+        "private",
+        "padlock"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "log-in",
+      "component": "LogIn",
+      "category": "Interface",
+      "tags": [
+        "sign in",
+        "enter",
+        "login"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "log-out",
+      "component": "LogOut",
+      "category": "Interface",
+      "tags": [
+        "sign out",
+        "exit",
+        "logout"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "magic-wand",
+      "component": "MagicWand",
+      "category": "Ideas",
+      "tags": [
+        "magic",
+        "wizard",
+        "create"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "mail",
+      "component": "Mail",
+      "category": "Communication",
+      "tags": [
+        "email",
+        "envelope",
+        "letter",
+        "message"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "map",
+      "component": "Map",
+      "category": "Places",
+      "tags": [
+        "directions",
+        "navigate",
+        "route",
+        "atlas"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "map-pin",
+      "component": "MapPin",
+      "category": "Places",
+      "tags": [
+        "location",
+        "marker",
+        "place",
+        "gps"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "maze",
+      "component": "Maze",
+      "category": "Ideas",
+      "tags": [
+        "labyrinth",
+        "path",
+        "explore"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "mcp-plug",
+      "component": "McpPlug",
+      "category": "AI & Agents",
+      "tags": [
+        "mcp",
+        "connect",
+        "integration",
+        "server"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "medal",
+      "component": "Medal",
+      "category": "Feelings",
+      "tags": [
+        "award",
+        "prize",
+        "achievement",
+        "badge"
+      ],
+      "move": "ring"
+    },
+    {
+      "name": "megaphone",
+      "component": "Megaphone",
+      "category": "Communication",
+      "tags": [
+        "announce",
+        "broadcast",
+        "loudspeaker",
+        "marketing"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "memory",
+      "component": "Memory",
+      "category": "AI & Agents",
+      "tags": [
+        "remember",
+        "storage",
+        "recall",
+        "drawer"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "menu",
+      "component": "Menu",
+      "category": "Interface",
+      "tags": [
+        "hamburger",
+        "navigation",
+        "nav"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "mic",
+      "component": "Mic",
+      "category": "Communication",
+      "tags": [
+        "microphone",
+        "record",
+        "voice",
+        "audio"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "mic-off",
+      "component": "MicOff",
+      "category": "Communication",
+      "tags": [
+        "muted",
+        "silent",
+        "microphone off"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "microscope",
+      "component": "Microscope",
+      "category": "Learning",
+      "tags": [
+        "science",
+        "research",
+        "lab",
+        "zoom"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "minus",
+      "component": "Minus",
+      "category": "Interface",
+      "tags": [
+        "remove",
+        "subtract",
+        "less"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "monitor",
+      "component": "Monitor",
+      "category": "Devices",
+      "tags": [
+        "screen",
+        "display",
+        "desktop",
+        "computer"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "moon",
+      "component": "Moon",
+      "category": "Weather",
+      "tags": [
+        "night",
+        "dark",
+        "sleep",
+        "crescent"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "moon-stars",
+      "component": "MoonStars",
+      "category": "Nature",
+      "tags": [
+        "night",
+        "sleep",
+        "dream",
+        "evening"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "more",
+      "component": "More",
+      "category": "Interface",
+      "tags": [
+        "dots",
+        "ellipsis",
+        "options"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "mountain",
+      "component": "Mountain",
+      "category": "Nature",
+      "tags": [
+        "peak",
+        "hike",
+        "summit",
+        "outdoors"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "mountain-flag",
+      "component": "MountainFlag",
+      "category": "Work",
+      "tags": [
+        "summit",
+        "goal",
+        "milestone",
+        "achievement"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "mouse",
+      "component": "Mouse",
+      "category": "Devices",
+      "tags": [
+        "pointer",
+        "click",
+        "computer"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "multi-agent",
+      "component": "MultiAgent",
+      "category": "AI & Agents",
+      "tags": [
+        "team",
+        "swarm",
+        "agents",
+        "crew"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "mushroom",
+      "component": "Mushroom",
+      "category": "Nature",
+      "tags": [
+        "toadstool",
+        "fungi",
+        "forest",
+        "forage"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "music",
+      "component": "Music",
+      "category": "Media",
+      "tags": [
+        "note",
+        "song",
+        "audio",
+        "tune"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "mute",
+      "component": "Mute",
+      "category": "Media",
+      "tags": [
+        "silent",
+        "speaker off",
+        "no sound",
+        "quiet"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "node-graph",
+      "component": "NodeGraph",
+      "category": "AI & Agents",
+      "tags": [
+        "network",
+        "workflow",
+        "graph",
+        "connections"
+      ],
+      "move": "beat"
+    },
+    {
+      "name": "notebook",
+      "component": "Notebook",
+      "category": "Learning",
+      "tags": [
+        "journal",
+        "notes",
+        "write",
+        "diary"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "orb",
+      "component": "Orb",
+      "category": "AI & Agents",
+      "tags": [
+        "ai",
+        "glow",
+        "assistant",
+        "sphere"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "paintbrush",
+      "component": "Paintbrush",
+      "category": "Making",
+      "tags": [
+        "paint",
+        "art",
+        "brush"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "palette",
+      "component": "Palette",
+      "category": "Making",
+      "tags": [
+        "colour",
+        "color",
+        "paint",
+        "art"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "paper-plane",
+      "component": "PaperPlane",
+      "category": "Play",
+      "tags": [
+        "send",
+        "fly",
+        "message",
+        "travel"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "paperclip",
+      "component": "Paperclip",
+      "category": "Files",
+      "tags": [
+        "attach",
+        "attachment",
+        "clip"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "party-popper",
+      "component": "PartyPopper",
+      "category": "Celebrate",
+      "tags": [
+        "confetti",
+        "party",
+        "celebrate",
+        "congrats"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "pause",
+      "component": "Pause",
+      "category": "Media",
+      "tags": [
+        "hold",
+        "wait",
+        "break"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "pen-nib",
+      "component": "PenNib",
+      "category": "Making",
+      "tags": [
+        "write",
+        "draw",
+        "design",
+        "vector"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "phone",
+      "component": "Phone",
+      "category": "Communication",
+      "tags": [
+        "call",
+        "telephone",
+        "handset",
+        "ring"
+      ],
+      "move": "ring"
+    },
+    {
+      "name": "pie-chart",
+      "component": "PieChart",
+      "category": "Data",
+      "tags": [
+        "chart",
+        "share",
+        "segments",
+        "analytics",
+        "report"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "pin",
+      "component": "Pin",
+      "category": "Interface",
+      "tags": [
+        "pushpin",
+        "pinned",
+        "attach"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "pizza",
+      "component": "Pizza",
+      "category": "Food",
+      "tags": [
+        "slice",
+        "italian",
+        "snack",
+        "dinner"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "plane",
+      "component": "Plane",
+      "category": "Places",
+      "tags": [
+        "flight",
+        "travel",
+        "airplane",
+        "trip",
+        "airport"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "planet",
+      "component": "Planet",
+      "category": "Space",
+      "tags": [
+        "saturn",
+        "space",
+        "world",
+        "orbit"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "plant-pot",
+      "component": "PlantPot",
+      "category": "Hobbies",
+      "tags": [
+        "houseplant",
+        "garden",
+        "indoor",
+        "green"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "play",
+      "component": "Play",
+      "category": "Media",
+      "tags": [
+        "start",
+        "resume",
+        "video",
+        "audio"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "plug",
+      "component": "Plug",
+      "category": "Devices",
+      "tags": [
+        "power",
+        "socket",
+        "electric",
+        "connect"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "plus",
+      "component": "Plus",
+      "category": "Interface",
+      "tags": [
+        "add",
+        "new",
+        "create"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "pointer",
+      "component": "Pointer",
+      "category": "Making",
+      "tags": [
+        "cursor",
+        "click",
+        "select",
+        "mouse"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "popsicle",
+      "component": "Popsicle",
+      "category": "Food",
+      "tags": [
+        "ice lolly",
+        "summer",
+        "frozen",
+        "treat"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "power",
+      "component": "Power",
+      "category": "Interface",
+      "tags": [
+        "on",
+        "off",
+        "shutdown",
+        "switch"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "printer",
+      "component": "Printer",
+      "category": "Devices",
+      "tags": [
+        "print",
+        "paper",
+        "office"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "prompt",
+      "component": "Prompt",
+      "category": "AI & Agents",
+      "tags": [
+        "input",
+        "ask",
+        "message",
+        "ai"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "puzzle",
+      "component": "Puzzle",
+      "category": "Ideas",
+      "tags": [
+        "piece",
+        "solve",
+        "problem"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "radar",
+      "component": "Radar",
+      "category": "AI & Agents",
+      "tags": [
+        "scan",
+        "detect",
+        "monitor",
+        "search"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "rainbow",
+      "component": "Rainbow",
+      "category": "Feelings",
+      "tags": [
+        "hope",
+        "colour",
+        "weather",
+        "pride"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "receipt",
+      "component": "Receipt",
+      "category": "Commerce",
+      "tags": [
+        "bill",
+        "invoice",
+        "order",
+        "paid"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "redo",
+      "component": "Redo",
+      "category": "Interface",
+      "tags": [
+        "forward",
+        "repeat",
+        "step forward"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "refresh",
+      "component": "Refresh",
+      "category": "Interface",
+      "tags": [
+        "reload",
+        "sync",
+        "update",
+        "loop"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "repeat",
+      "component": "Repeat",
+      "category": "Media",
+      "tags": [
+        "loop",
+        "again",
+        "cycle"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "reply",
+      "component": "Reply",
+      "category": "Communication",
+      "tags": [
+        "respond",
+        "answer",
+        "back"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "retrieval",
+      "component": "Retrieval",
+      "category": "AI & Agents",
+      "tags": [
+        "search",
+        "fetch",
+        "rag",
+        "lookup"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "retro-camera",
+      "component": "RetroCamera",
+      "category": "Hobbies",
+      "tags": [
+        "photo",
+        "polaroid",
+        "instant",
+        "film"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "robot",
+      "component": "Robot",
+      "category": "AI & Agents",
+      "tags": [
+        "bot",
+        "assistant",
+        "agent",
+        "ai"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "rocket",
+      "component": "Rocket",
+      "category": "Work",
+      "tags": [
+        "launch",
+        "startup",
+        "ship",
+        "fast"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "ruler-pencil",
+      "component": "RulerPencil",
+      "category": "Making",
+      "tags": [
+        "design",
+        "measure",
+        "draw",
+        "tools"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "sandbox",
+      "component": "Sandbox",
+      "category": "AI & Agents",
+      "tags": [
+        "safe",
+        "test",
+        "play",
+        "isolated"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "scissors",
+      "component": "Scissors",
+      "category": "Making",
+      "tags": [
+        "cut",
+        "trim",
+        "crop"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "search",
+      "component": "Search",
+      "category": "Interface",
+      "tags": [
+        "find",
+        "magnifier",
+        "look"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "seed",
+      "component": "Seed",
+      "category": "Ideas",
+      "tags": [
+        "creative process",
+        "grow",
+        "start"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "send",
+      "component": "Send",
+      "category": "Communication",
+      "tags": [
+        "paper plane",
+        "submit",
+        "deliver"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "settings",
+      "component": "Settings",
+      "category": "Interface",
+      "tags": [
+        "gear",
+        "cog",
+        "preferences"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "shapes",
+      "component": "Shapes",
+      "category": "Making",
+      "tags": [
+        "geometry",
+        "basic",
+        "design",
+        "primitives"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "share",
+      "component": "Share",
+      "category": "Interface",
+      "tags": [
+        "send",
+        "social",
+        "network"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "shell",
+      "component": "Shell",
+      "category": "Nature",
+      "tags": [
+        "sea",
+        "beach",
+        "summer",
+        "scallop"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "shooting-star",
+      "component": "ShootingStar",
+      "category": "Space",
+      "tags": [
+        "wish",
+        "night",
+        "fast",
+        "star"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "shuffle",
+      "component": "Shuffle",
+      "category": "Media",
+      "tags": [
+        "random",
+        "mix",
+        "crossing"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "skateboard",
+      "component": "Skateboard",
+      "category": "Play",
+      "tags": [
+        "skate",
+        "street",
+        "sport",
+        "ride"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "sketchbook",
+      "component": "Sketchbook",
+      "category": "Making",
+      "tags": [
+        "notebook",
+        "draw",
+        "doodle",
+        "pad"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "skill-card",
+      "component": "SkillCard",
+      "category": "AI & Agents",
+      "tags": [
+        "skills",
+        "applying skills",
+        "badge",
+        "ability"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "skip-back",
+      "component": "SkipBack",
+      "category": "Media",
+      "tags": [
+        "previous",
+        "rewind",
+        "track"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "skip-forward",
+      "component": "SkipForward",
+      "category": "Media",
+      "tags": [
+        "next",
+        "fast forward",
+        "track"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "sliders",
+      "component": "Sliders",
+      "category": "Interface",
+      "tags": [
+        "controls",
+        "adjust",
+        "settings",
+        "equalizer"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "smartphone",
+      "component": "Smartphone",
+      "category": "Devices",
+      "tags": [
+        "phone",
+        "mobile",
+        "iphone",
+        "android"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "smile",
+      "component": "Smile",
+      "category": "People",
+      "tags": [
+        "happy",
+        "face",
+        "emoji",
+        "smiley"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "smile-sun",
+      "component": "SmileSun",
+      "category": "Feelings",
+      "tags": [
+        "happy",
+        "sunny",
+        "cheerful",
+        "joy"
+      ],
+      "move": "beat"
+    },
+    {
+      "name": "snow-globe",
+      "component": "SnowGlobe",
+      "category": "Play",
+      "tags": [
+        "world",
+        "worlds",
+        "diorama",
+        "scene",
+        "keepsake",
+        "creative"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "snowflake",
+      "component": "Snowflake",
+      "category": "Nature",
+      "tags": [
+        "winter",
+        "cold",
+        "snow",
+        "ice"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "sort",
+      "component": "Sort",
+      "category": "Interface",
+      "tags": [
+        "order",
+        "arrange",
+        "up down"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "spark-burst",
+      "component": "SparkBurst",
+      "category": "Ideas",
+      "tags": [
+        "pop",
+        "wow",
+        "boom"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "sparkles",
+      "component": "Sparkles",
+      "category": "AI & Agents",
+      "tags": [
+        "ai",
+        "magic",
+        "generate",
+        "collaborating"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "spray-can",
+      "component": "SprayCan",
+      "category": "Making",
+      "tags": [
+        "graffiti",
+        "paint",
+        "street",
+        "spray"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "sprout",
+      "component": "Sprout",
+      "category": "Nature",
+      "tags": [
+        "grow",
+        "plant",
+        "seedling",
+        "new"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "stairs",
+      "component": "Stairs",
+      "category": "Work",
+      "tags": [
+        "steps",
+        "progress",
+        "level",
+        "climb"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "stamp",
+      "component": "Stamp",
+      "category": "Work",
+      "tags": [
+        "approve",
+        "seal",
+        "mark",
+        "official"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "star",
+      "component": "Star",
+      "category": "Interface",
+      "tags": [
+        "favourite",
+        "rating",
+        "rate",
+        "bookmark"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "steering-wheel",
+      "component": "SteeringWheel",
+      "category": "AI & Agents",
+      "tags": [
+        "drive",
+        "control",
+        "direction",
+        "navigate"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "sticky-note",
+      "component": "StickyNote",
+      "category": "Making",
+      "tags": [
+        "memo",
+        "reminder",
+        "post-it",
+        "note"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "stop",
+      "component": "Stop",
+      "category": "Media",
+      "tags": [
+        "end",
+        "halt",
+        "square"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "stopwatch",
+      "component": "Stopwatch",
+      "category": "Time",
+      "tags": [
+        "timer",
+        "race",
+        "speed",
+        "lap"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "store",
+      "component": "Store",
+      "category": "Commerce",
+      "tags": [
+        "shop",
+        "market",
+        "awning",
+        "retail"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "sun",
+      "component": "Sun",
+      "category": "Weather",
+      "tags": [
+        "sunny",
+        "day",
+        "light",
+        "brightness",
+        "summer"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "sunrise",
+      "component": "Sunrise",
+      "category": "Nature",
+      "tags": [
+        "morning",
+        "dawn",
+        "horizon",
+        "day"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "tag",
+      "component": "Tag",
+      "category": "Interface",
+      "tags": [
+        "label",
+        "price",
+        "category"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "target",
+      "component": "Target",
+      "category": "Work",
+      "tags": [
+        "goal",
+        "aim",
+        "focus",
+        "bullseye"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "tea",
+      "component": "Tea",
+      "category": "Food",
+      "tags": [
+        "cup",
+        "green tea",
+        "drink",
+        "calm"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "tear",
+      "component": "Tear",
+      "category": "Feelings",
+      "tags": [
+        "cry",
+        "sad",
+        "emotion",
+        "sorrow"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "telescope",
+      "component": "Telescope",
+      "category": "Ideas",
+      "tags": [
+        "explore",
+        "discover",
+        "vision"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "tent",
+      "component": "Tent",
+      "category": "Hobbies",
+      "tags": [
+        "camping",
+        "outdoors",
+        "travel",
+        "adventure"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "terminal",
+      "component": "Terminal",
+      "category": "AI & Agents",
+      "tags": [
+        "agents",
+        "command",
+        "console",
+        "code"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "thought-bubble",
+      "component": "ThoughtBubble",
+      "category": "Ideas",
+      "tags": [
+        "thinking",
+        "idea",
+        "dream"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "thumbs-down",
+      "component": "ThumbsDown",
+      "category": "People",
+      "tags": [
+        "dislike",
+        "bad",
+        "reject",
+        "no"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "thumbs-up",
+      "component": "ThumbsUp",
+      "category": "People",
+      "tags": [
+        "like",
+        "good",
+        "approve",
+        "yes"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "ticket",
+      "component": "Ticket",
+      "category": "Celebrate",
+      "tags": [
+        "event",
+        "admission",
+        "concert",
+        "pass"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "token",
+      "component": "Token",
+      "category": "AI & Agents",
+      "tags": [
+        "coin",
+        "credits",
+        "usage",
+        "unit"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "tomato-timer",
+      "component": "TomatoTimer",
+      "category": "Work",
+      "tags": [
+        "pomodoro",
+        "focus",
+        "timer",
+        "productivity"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "toolbox",
+      "component": "Toolbox",
+      "category": "AI & Agents",
+      "tags": [
+        "tools",
+        "kit",
+        "utilities",
+        "fix"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "trash",
+      "component": "Trash",
+      "category": "Interface",
+      "tags": [
+        "delete",
+        "bin",
+        "remove"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "tree",
+      "component": "Tree",
+      "category": "Nature",
+      "tags": [
+        "forest",
+        "nature",
+        "park",
+        "wood"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "trending-up",
+      "component": "TrendingUp",
+      "category": "Data",
+      "tags": [
+        "growth",
+        "increase",
+        "rise",
+        "profit",
+        "stats"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "trophy",
+      "component": "Trophy",
+      "category": "Work",
+      "tags": [
+        "win",
+        "champion",
+        "award",
+        "success"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "truck",
+      "component": "Truck",
+      "category": "Commerce",
+      "tags": [
+        "delivery",
+        "shipping",
+        "van",
+        "lorry"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "two-hearts",
+      "component": "TwoHearts",
+      "category": "Feelings",
+      "tags": [
+        "love",
+        "couple",
+        "together",
+        "friends"
+      ],
+      "move": "beat"
+    },
+    {
+      "name": "ufo",
+      "component": "Ufo",
+      "category": "Space",
+      "tags": [
+        "alien",
+        "saucer",
+        "space",
+        "flying"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "umbrella",
+      "component": "Umbrella",
+      "category": "Weather",
+      "tags": [
+        "rain",
+        "protect",
+        "cover",
+        "insurance"
+      ],
+      "move": "tilt"
+    },
+    {
+      "name": "undo",
+      "component": "Undo",
+      "category": "Interface",
+      "tags": [
+        "back",
+        "revert",
+        "step back"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "unlock",
+      "component": "Unlock",
+      "category": "Interface",
+      "tags": [
+        "open",
+        "unsecure",
+        "padlock"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "upload",
+      "component": "Upload",
+      "category": "Arrows",
+      "tags": [
+        "send",
+        "put",
+        "publish"
+      ],
+      "move": "rise"
+    },
+    {
+      "name": "user",
+      "component": "User",
+      "category": "People",
+      "tags": [
+        "person",
+        "profile",
+        "account",
+        "avatar"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "user-plus",
+      "component": "UserPlus",
+      "category": "People",
+      "tags": [
+        "add user",
+        "invite",
+        "new member",
+        "follow"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "users",
+      "component": "Users",
+      "category": "People",
+      "tags": [
+        "people",
+        "team",
+        "group",
+        "community"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "video",
+      "component": "Video",
+      "category": "Media",
+      "tags": [
+        "camcorder",
+        "record",
+        "movie",
+        "clip"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "video-call",
+      "component": "VideoCall",
+      "category": "Communication",
+      "tags": [
+        "meeting",
+        "conference",
+        "zoom",
+        "webcam"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "vinyl",
+      "component": "Vinyl",
+      "category": "Hobbies",
+      "tags": [
+        "record",
+        "music",
+        "retro",
+        "album"
+      ],
+      "move": "spin"
+    },
+    {
+      "name": "vision",
+      "component": "Vision",
+      "category": "AI & Agents",
+      "tags": [
+        "see",
+        "image",
+        "look",
+        "multimodal"
+      ],
+      "move": "blink"
+    },
+    {
+      "name": "voice-agent",
+      "component": "VoiceAgent",
+      "category": "AI & Agents",
+      "tags": [
+        "voice",
+        "speech",
+        "assistant",
+        "microphone"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "volume",
+      "component": "Volume",
+      "category": "Media",
+      "tags": [
+        "sound",
+        "speaker",
+        "audio",
+        "loud"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "wallet",
+      "component": "Wallet",
+      "category": "Commerce",
+      "tags": [
+        "money",
+        "cash",
+        "purse",
+        "pay"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "warning",
+      "component": "Warning",
+      "category": "Interface",
+      "tags": [
+        "caution",
+        "alert",
+        "danger",
+        "triangle"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "wave",
+      "component": "Wave",
+      "category": "Nature",
+      "tags": [
+        "sea",
+        "ocean",
+        "water",
+        "surf"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "waveform",
+      "component": "Waveform",
+      "category": "AI & Agents",
+      "tags": [
+        "audio",
+        "sound",
+        "voice",
+        "speech"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "wifi",
+      "component": "Wifi",
+      "category": "Devices",
+      "tags": [
+        "wireless",
+        "internet",
+        "signal",
+        "network"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "workflow",
+      "component": "Workflow",
+      "category": "AI & Agents",
+      "tags": [
+        "flow",
+        "steps",
+        "pipeline",
+        "automation"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "yo-yo",
+      "component": "YoYo",
+      "category": "Play",
+      "tags": [
+        "toy",
+        "retro",
+        "trick",
+        "string"
+      ],
+      "move": "ring"
+    },
+    {
+      "name": "zoom-in",
+      "component": "ZoomIn",
+      "category": "Interface",
+      "tags": [
+        "magnify",
+        "bigger",
+        "enlarge"
+      ],
+      "move": "wiggle"
+    },
+    {
+      "name": "zoom-out",
+      "component": "ZoomOut",
+      "category": "Interface",
+      "tags": [
+        "magnify",
+        "smaller",
+        "shrink"
+      ],
+      "move": "wiggle"
+    }
+  ]
+}

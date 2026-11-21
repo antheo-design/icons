@@ -1,0 +1,45 @@
+{
+  "name": "@antheo/painted-icons",
+  "version": "1.0.0",
+  "description": "280 hand-painted icons for React: dry-brush ink, a colour plate slipped off the line, and a little move on hover.",
+  "keywords": ["icons", "react", "svg", "animated-icons", "icon-set", "painted", "hand-drawn", "brush", "antheo"],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Antheo",
+  "homepage": "https://antheo.studio/icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antheo-design/icons.git",
+    "directory": "packages/painted-icons"
+  },
+  "bugs": "https://github.com/antheo-design/icons/issues",
+  "type": "module",
+  "sideEffects": ["*.css"],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.js"
+    },
+    "./styles.css": "./styles.css",
+    "./icons.json": "./icons.json",
+    "./svg/*": "./svg/*",
+    "./animated/*": "./animated/*",
+    "./package.json": "./package.json"
+  },
+  "files": ["dist", "svg", "animated", "styles.css", "icons.json", "ICONS.md", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
