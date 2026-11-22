@@ -2,6 +2,11 @@
 
 Both packages share one version number and are released together.
 
+## 1.1.1
+
+- Clearer drawings for grip (a drag handle with arrows), loader (a spinner ring), fingerprint and tablet (held
+  sideways, with a stylus), in both families.
+
 ## 1.1.0
 
 - 69 new icons in both families, 350 in each now: sidebar, columns, table, grip, move, minimize, more-vertical,
