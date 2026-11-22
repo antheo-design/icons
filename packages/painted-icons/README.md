@@ -1,6 +1,6 @@
 # @antheo/painted-icons
 
-281 hand-painted icons for React. Dry-brush ink over a colour plate slipped off the line, like a print slightly
+350 hand-painted icons for React. Dry-brush ink over a colour plate slipped off the line, like a print slightly
 out of register. On hover the ink re-draws itself, the plate slides into place and the icon does its own move.
 
 ![Painted icons](https://raw.githubusercontent.com/antheo-design/icons/main/assets/painted.png)
@@ -43,7 +43,7 @@ Every icon has two exports: the plain name and one ending in `Icon`, for when th
 import { Camera, CameraIcon } from '@antheo/painted-icons'; // same component
 ```
 
-All 281, with pictures: [ICONS.md](ICONS.md). In code: `iconNames`, `categories` and `icons.json` (names, categories,
+All 350, with pictures: [ICONS.md](ICONS.md). In code: `iconNames`, `categories` and `icons.json` (names, categories,
 search tags, moves).
 
 ## Hover from a parent

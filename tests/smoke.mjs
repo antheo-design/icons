@@ -48,4 +48,11 @@ assert.match(two, /data-loop=""/);
 assert.match(two, /--at-tile:#000/);
 assert.doesNotMatch(renderToStaticMarkup(h(tufted.Globe, { play: 'none' })), /data-move/);
 
+// Lucide-style names point at our icons
+assert.equal(painted.X, painted.Close);
+assert.equal(painted.AlertTriangle, painted.Warning);
+assert.equal(tufted.Bot, tufted.Robot);
+assert.equal(tufted.XTuft, tufted.Close);
+console.log('aliases ok');
+
 console.log('all checks passed');

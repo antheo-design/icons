@@ -1,6 +1,6 @@
 {
   "name": "@antheo/painted-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "280 hand-painted icons for React: dry-brush ink, a colour plate slipped off the line, and a little move on hover.",
   "keywords": ["icons", "react", "svg", "animated-icons", "icon-set", "painted", "hand-drawn", "brush", "antheo"],
   "license": "SEE LICENSE IN LICENSE",

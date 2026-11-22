@@ -1,6 +1,6 @@
 # @antheo/tufted-icons
 
-281 felt icons for React. Each icon is cut from felt and laid on a felt tile: fuzzy fibre edges, a soft fibre
+350 felt icons for React. Each icon is cut from felt and laid on a felt tile: fuzzy fibre edges, a soft fibre
 texture and a shadow under every piece. On hover the felt lifts and does its own move.
 
 ![Tufted icons](https://raw.githubusercontent.com/antheo-design/icons/main/assets/tufted.png)
@@ -41,7 +41,7 @@ Every icon has two exports: the plain name and one ending in `Tuft`, for when th
 import { Globe, GlobeTuft } from '@antheo/tufted-icons'; // same component
 ```
 
-All 281, with pictures: [ICONS.md](ICONS.md). In code: `iconNames`, `categories` and `icons.json` (names, categories,
+All 350, with pictures: [ICONS.md](ICONS.md). In code: `iconNames`, `categories` and `icons.json` (names, categories,
 search tags, moves and the yarns).
 
 The names match `@antheo/painted-icons` exactly, so you can switch families by changing the import.

@@ -1,6 +1,6 @@
 <h1 align="center">Antheo Icons</h1>
 
-<p align="center">Two families of 281 icons for React, each with its own little move on hover.</p>
+<p align="center">Two families of 350 icons for React, each with its own little move on hover.</p>
 
 <p align="center">
   <a href="packages/painted-icons"><img src="assets/painted.png" alt="Painted icons: search, home, bell, heart, settings, camera, rocket, globe and more, in dry-brush ink over a slipped colour plate" width="640"></a>
@@ -14,7 +14,7 @@
 | [`@antheo/painted-icons`](packages/painted-icons) | Dry-brush ink over a colour plate slipped off the line. On hover the ink re-draws itself, the plate slides into place and the icon does its move. Ink follows your text colour, so it works in light and dark. | `npm i @antheo/painted-icons` |
 | [`@antheo/tufted-icons`](packages/tufted-icons) | Cut from felt and laid on a felt tile: fuzzy fibre edges, a soft fibre texture and a shadow under every piece. On hover the felt lifts and moves. | `npm i @antheo/tufted-icons` |
 
-Both families have the same 281 icons with the same names, so you can switch from one to the other by changing the
+Both families have the same 350 icons with the same names, so you can switch from one to the other by changing the
 import.
 
 ## Quick start
@@ -39,9 +39,11 @@ an icon renders.
 
 ## What you get
 
-- **281 icons per family**, in 24 categories, from interface, arrows, files and data to AI & agents, making, food,
+- **350 icons per family**, in 24 categories, from interface, arrows, files and data to AI & agents, making, food,
   weather, play and feelings. See them all in each package's `ICONS.md`.
 - **One component per icon**, tree-shakeable: a page that imports 5 icons ships 5 icons.
+- **Lucide names work too.** `X`, `AlertTriangle`, `Bot`, `ShoppingCart`, `Zap` and nearly 90 more point at our
+  icons, so moving over is mostly a change of package name. See [Coming from Lucide](docs/guide.md#coming-from-lucide).
 - **A move per icon** on hover (a bell rings, a rocket rises, a gear turns). Turn it off, or let tufted icons loop.
 - **Any colours.** Every colour is a prop.
 - **Plain files too.** Each package ships every icon as a still SVG and as an animated SVG that loops on its own, even

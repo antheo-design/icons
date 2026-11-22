@@ -1,5 +1,5 @@
 {
-  "count": 281,
+  "count": 350,
   "yarns": {
     "tomato": {
       "tile": "#FF5A1F",
@@ -56,6 +56,7 @@
     {
       "name": "abacus",
       "component": "Abacus",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "count",
@@ -66,8 +67,22 @@
       "move": "slide"
     },
     {
+      "name": "activity",
+      "component": "Activity",
+      "aliases": [],
+      "category": "Data",
+      "tags": [
+        "pulse",
+        "heartbeat",
+        "live",
+        "monitor"
+      ],
+      "move": "beat"
+    },
+    {
       "name": "agent",
       "component": "Agent",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "bot",
@@ -80,6 +95,9 @@
     {
       "name": "alarm",
       "component": "Alarm",
+      "aliases": [
+        "AlarmClock"
+      ],
       "category": "Time",
       "tags": [
         "alert",
@@ -92,6 +110,7 @@
     {
       "name": "archive",
       "component": "Archive",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "box",
@@ -103,6 +122,7 @@
     {
       "name": "arrow-down",
       "component": "ArrowDown",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "down",
@@ -114,6 +134,7 @@
     {
       "name": "arrow-left",
       "component": "ArrowLeft",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "left",
@@ -126,6 +147,7 @@
     {
       "name": "arrow-right",
       "component": "ArrowRight",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "right",
@@ -138,6 +160,7 @@
     {
       "name": "arrow-up",
       "component": "ArrowUp",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "up",
@@ -149,6 +172,7 @@
     {
       "name": "astronaut",
       "component": "Astronaut",
+      "aliases": [],
       "category": "Space",
       "tags": [
         "space",
@@ -161,6 +185,7 @@
     {
       "name": "atom",
       "component": "Atom",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "science",
@@ -173,6 +198,7 @@
     {
       "name": "avocado",
       "component": "Avocado",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "fruit",
@@ -185,6 +211,7 @@
     {
       "name": "backpack",
       "component": "Backpack",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "school",
@@ -195,8 +222,24 @@
       "move": "bounce"
     },
     {
+      "name": "badge-check",
+      "component": "BadgeCheck",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "verified",
+        "approved",
+        "seal",
+        "trusted"
+      ],
+      "move": "pop"
+    },
+    {
       "name": "bag",
       "component": "Bag",
+      "aliases": [
+        "ShoppingBag"
+      ],
       "category": "Commerce",
       "tags": [
         "shopping",
@@ -209,6 +252,7 @@
     {
       "name": "ball",
       "component": "Ball",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "beach",
@@ -221,6 +265,7 @@
     {
       "name": "balloon",
       "component": "Balloon",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "party",
@@ -231,8 +276,53 @@
       "move": "float"
     },
     {
+      "name": "ban",
+      "component": "Ban",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "forbidden",
+        "blocked",
+        "prohibited",
+        "no"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "bank",
+      "component": "Bank",
+      "aliases": [
+        "Landmark"
+      ],
+      "category": "Commerce",
+      "tags": [
+        "finance",
+        "savings",
+        "institution",
+        "columns"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "banknote",
+      "component": "Banknote",
+      "aliases": [],
+      "category": "Commerce",
+      "tags": [
+        "cash",
+        "money",
+        "bill",
+        "dollar"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "bar-chart",
       "component": "BarChart",
+      "aliases": [
+        "ChartBar",
+        "ChartColumn"
+      ],
       "category": "Data",
       "tags": [
         "chart",
@@ -244,8 +334,24 @@
       "move": "bounce"
     },
     {
+      "name": "barcode",
+      "component": "Barcode",
+      "aliases": [],
+      "category": "Commerce",
+      "tags": [
+        "scan",
+        "product",
+        "stock",
+        "sku"
+      ],
+      "move": "slide"
+    },
+    {
       "name": "battery",
       "component": "Battery",
+      "aliases": [
+        "BatteryFull"
+      ],
       "category": "Devices",
       "tags": [
         "power",
@@ -256,8 +362,22 @@
       "move": "blink"
     },
     {
+      "name": "battery-charging",
+      "component": "BatteryCharging",
+      "aliases": [],
+      "category": "Devices",
+      "tags": [
+        "power",
+        "charge",
+        "plugged",
+        "energy"
+      ],
+      "move": "beat"
+    },
+    {
       "name": "beacon",
       "component": "Beacon",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "lighthouse",
@@ -270,6 +390,7 @@
     {
       "name": "bell",
       "component": "Bell",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "notification",
@@ -278,8 +399,22 @@
       "move": "ring"
     },
     {
+      "name": "bell-off",
+      "component": "BellOff",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "mute",
+        "silent",
+        "notifications off",
+        "snooze"
+      ],
+      "move": "shake"
+    },
+    {
       "name": "bicycle",
       "component": "Bicycle",
+      "aliases": [],
       "category": "Hobbies",
       "tags": [
         "bike",
@@ -292,6 +427,7 @@
     {
       "name": "bluetooth",
       "component": "Bluetooth",
+      "aliases": [],
       "category": "Devices",
       "tags": [
         "wireless",
@@ -303,6 +439,9 @@
     {
       "name": "bolt",
       "component": "Bolt",
+      "aliases": [
+        "Zap"
+      ],
       "category": "Weather",
       "tags": [
         "lightning",
@@ -316,6 +455,9 @@
     {
       "name": "book-open",
       "component": "BookOpen",
+      "aliases": [
+        "Book"
+      ],
       "category": "Learning",
       "tags": [
         "read",
@@ -328,6 +470,7 @@
     {
       "name": "bookmark",
       "component": "Bookmark",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "save",
@@ -337,8 +480,22 @@
       "move": "drop"
     },
     {
+      "name": "bookmark-plus",
+      "component": "BookmarkPlus",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "save",
+        "add bookmark",
+        "read later",
+        "favourite"
+      ],
+      "move": "drop"
+    },
+    {
       "name": "bookshelf",
       "component": "Bookshelf",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "library",
@@ -351,6 +508,9 @@
     {
       "name": "brain",
       "component": "Brain",
+      "aliases": [
+        "BrainCircuit"
+      ],
       "category": "Ideas",
       "tags": [
         "mind",
@@ -362,6 +522,7 @@
     {
       "name": "briefcase",
       "component": "Briefcase",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "job",
@@ -374,6 +535,7 @@
     {
       "name": "broken-heart",
       "component": "BrokenHeart",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "sad",
@@ -386,6 +548,7 @@
     {
       "name": "bubble-tea",
       "component": "BubbleTea",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "boba",
@@ -396,8 +559,24 @@
       "move": "squash"
     },
     {
+      "name": "bug",
+      "component": "Bug",
+      "aliases": [
+        "BugOff"
+      ],
+      "category": "Work",
+      "tags": [
+        "insect",
+        "error",
+        "debug",
+        "issue"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "building",
       "component": "Building",
+      "aliases": [],
       "category": "Places",
       "tags": [
         "office",
@@ -410,6 +589,7 @@
     {
       "name": "bunting",
       "component": "Bunting",
+      "aliases": [],
       "category": "Celebrate",
       "tags": [
         "party",
@@ -422,6 +602,7 @@
     {
       "name": "butterfly",
       "component": "Butterfly",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "insect",
@@ -434,6 +615,7 @@
     {
       "name": "cactus",
       "component": "Cactus",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "desert",
@@ -446,6 +628,7 @@
     {
       "name": "cake",
       "component": "Cake",
+      "aliases": [],
       "category": "Celebrate",
       "tags": [
         "birthday",
@@ -458,6 +641,9 @@
     {
       "name": "calendar",
       "component": "Calendar",
+      "aliases": [
+        "CalendarDays"
+      ],
       "category": "Time",
       "tags": [
         "date",
@@ -469,6 +655,7 @@
     {
       "name": "camera",
       "component": "Camera",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "photo",
@@ -478,8 +665,22 @@
       "move": "pop"
     },
     {
+      "name": "camera-off",
+      "component": "CameraOff",
+      "aliases": [],
+      "category": "Devices",
+      "tags": [
+        "camera disabled",
+        "no video",
+        "photo",
+        "blocked"
+      ],
+      "move": "shake"
+    },
+    {
       "name": "candle",
       "component": "Candle",
+      "aliases": [],
       "category": "Celebrate",
       "tags": [
         "birthday",
@@ -492,6 +693,7 @@
     {
       "name": "car",
       "component": "Car",
+      "aliases": [],
       "category": "Places",
       "tags": [
         "vehicle",
@@ -504,6 +706,7 @@
     {
       "name": "cards",
       "component": "Cards",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "playing cards",
@@ -516,6 +719,9 @@
     {
       "name": "cart",
       "component": "Cart",
+      "aliases": [
+        "ShoppingCart"
+      ],
       "category": "Commerce",
       "tags": [
         "basket",
@@ -528,6 +734,7 @@
     {
       "name": "chalkboard",
       "component": "Chalkboard",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "teach",
@@ -540,6 +747,10 @@
     {
       "name": "chat",
       "component": "Chat",
+      "aliases": [
+        "MessageCircle",
+        "MessageSquare"
+      ],
       "category": "Communication",
       "tags": [
         "message",
@@ -551,6 +762,7 @@
     {
       "name": "check",
       "component": "Check",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "tick",
@@ -563,6 +775,10 @@
     {
       "name": "checklist",
       "component": "Checklist",
+      "aliases": [
+        "ListChecks",
+        "ListTodo"
+      ],
       "category": "Work",
       "tags": [
         "todo",
@@ -575,6 +791,7 @@
     {
       "name": "cherry",
       "component": "Cherry",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "fruit",
@@ -587,6 +804,7 @@
     {
       "name": "chess-pawn",
       "component": "ChessPawn",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "chess",
@@ -599,6 +817,7 @@
     {
       "name": "chevron-down",
       "component": "ChevronDown",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "down",
@@ -611,6 +830,7 @@
     {
       "name": "chevron-left",
       "component": "ChevronLeft",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "left",
@@ -623,6 +843,7 @@
     {
       "name": "chevron-right",
       "component": "ChevronRight",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "right",
@@ -635,6 +856,7 @@
     {
       "name": "chevron-up",
       "component": "ChevronUp",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "up",
@@ -646,6 +868,9 @@
     {
       "name": "chip",
       "component": "Chip",
+      "aliases": [
+        "Cpu"
+      ],
       "category": "AI & Agents",
       "tags": [
         "processor",
@@ -656,8 +881,55 @@
       "move": "pop"
     },
     {
+      "name": "circle-check",
+      "component": "CircleCheck",
+      "aliases": [
+        "CheckCircle",
+        "CircleCheckBig"
+      ],
+      "category": "Interface",
+      "tags": [
+        "done",
+        "success",
+        "complete",
+        "verified"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "circle-plus",
+      "component": "CirclePlus",
+      "aliases": [
+        "PlusCircle"
+      ],
+      "category": "Interface",
+      "tags": [
+        "add",
+        "new",
+        "create",
+        "more"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "circle-x",
+      "component": "CircleX",
+      "aliases": [
+        "XCircle"
+      ],
+      "category": "Interface",
+      "tags": [
+        "error",
+        "close",
+        "cancel",
+        "wrong"
+      ],
+      "move": "shake"
+    },
+    {
       "name": "clipboard",
       "component": "Clipboard",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "paste",
@@ -669,6 +941,9 @@
     {
       "name": "clock",
       "component": "Clock",
+      "aliases": [
+        "Clock3"
+      ],
       "category": "Time",
       "tags": [
         "time",
@@ -681,6 +956,9 @@
     {
       "name": "close",
       "component": "Close",
+      "aliases": [
+        "X"
+      ],
       "category": "Interface",
       "tags": [
         "x",
@@ -692,6 +970,7 @@
     {
       "name": "cloud",
       "component": "Cloud",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "storage",
@@ -702,8 +981,22 @@
       "move": "float"
     },
     {
+      "name": "cloud-download",
+      "component": "CloudDownload",
+      "aliases": [],
+      "category": "Files",
+      "tags": [
+        "download",
+        "restore",
+        "sync",
+        "get"
+      ],
+      "move": "drop"
+    },
+    {
       "name": "cloud-rain",
       "component": "CloudRain",
+      "aliases": [],
       "category": "Weather",
       "tags": [
         "rain",
@@ -715,8 +1008,37 @@
       "move": "drop"
     },
     {
+      "name": "cloud-sun",
+      "component": "CloudSun",
+      "aliases": [
+        "CloudSunRain"
+      ],
+      "category": "Weather",
+      "tags": [
+        "partly cloudy",
+        "forecast",
+        "sunny",
+        "day"
+      ],
+      "move": "float"
+    },
+    {
+      "name": "cloud-upload",
+      "component": "CloudUpload",
+      "aliases": [],
+      "category": "Files",
+      "tags": [
+        "upload",
+        "backup",
+        "sync",
+        "send"
+      ],
+      "move": "rise"
+    },
+    {
       "name": "clover",
       "component": "Clover",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "luck",
@@ -729,6 +1051,7 @@
     {
       "name": "code",
       "component": "Code",
+      "aliases": [],
       "category": "Data",
       "tags": [
         "developer",
@@ -742,6 +1065,7 @@
     {
       "name": "code-agent",
       "component": "CodeAgent",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "code",
@@ -754,6 +1078,7 @@
     {
       "name": "coffee",
       "component": "Coffee",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "cafe",
@@ -766,6 +1091,10 @@
     {
       "name": "coins",
       "component": "Coins",
+      "aliases": [
+        "CircleDollarSign",
+        "HandCoins"
+      ],
       "category": "Commerce",
       "tags": [
         "money",
@@ -776,8 +1105,22 @@
       "move": "bounce"
     },
     {
+      "name": "columns",
+      "component": "Columns",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "layout",
+        "split",
+        "panes",
+        "vertical"
+      ],
+      "move": "pop"
+    },
+    {
       "name": "comet",
       "component": "Comet",
+      "aliases": [],
       "category": "Space",
       "tags": [
         "space",
@@ -790,6 +1133,7 @@
     {
       "name": "compass",
       "component": "Compass",
+      "aliases": [],
       "category": "Places",
       "tags": [
         "direction",
@@ -802,6 +1146,7 @@
     {
       "name": "context-window",
       "component": "ContextWindow",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "context",
@@ -814,6 +1159,7 @@
     {
       "name": "copy",
       "component": "Copy",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "duplicate",
@@ -824,6 +1170,7 @@
     {
       "name": "crayon",
       "component": "Crayon",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "draw",
@@ -836,6 +1183,7 @@
     {
       "name": "credit-card",
       "component": "CreditCard",
+      "aliases": [],
       "category": "Commerce",
       "tags": [
         "payment",
@@ -848,6 +1196,7 @@
     {
       "name": "crown",
       "component": "Crown",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "king",
@@ -860,6 +1209,7 @@
     {
       "name": "crystal-ball",
       "component": "CrystalBall",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "future",
@@ -871,6 +1221,7 @@
     {
       "name": "cupcake",
       "component": "Cupcake",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "bake",
@@ -881,8 +1232,24 @@
       "move": "squash"
     },
     {
+      "name": "dashboard",
+      "component": "Dashboard",
+      "aliases": [
+        "LayoutDashboard"
+      ],
+      "category": "Interface",
+      "tags": [
+        "layout",
+        "tiles",
+        "overview",
+        "panels"
+      ],
+      "move": "pop"
+    },
+    {
       "name": "database",
       "component": "Database",
+      "aliases": [],
       "category": "Data",
       "tags": [
         "storage",
@@ -896,6 +1263,7 @@
     {
       "name": "dice",
       "component": "Dice",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "game",
@@ -906,8 +1274,22 @@
       "move": "bounce"
     },
     {
+      "name": "discount",
+      "component": "Discount",
+      "aliases": [],
+      "category": "Commerce",
+      "tags": [
+        "sale",
+        "offer",
+        "percent",
+        "coupon"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "donut",
       "component": "Donut",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "doughnut",
@@ -920,6 +1302,7 @@
     {
       "name": "dove",
       "component": "Dove",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "peace",
@@ -932,6 +1315,7 @@
     {
       "name": "download",
       "component": "Download",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "save",
@@ -942,6 +1326,7 @@
     {
       "name": "dropper",
       "component": "Dropper",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "eyedropper",
@@ -954,6 +1339,11 @@
     {
       "name": "edit",
       "component": "Edit",
+      "aliases": [
+        "Pencil",
+        "SquarePen",
+        "PenLine"
+      ],
       "category": "Interface",
       "tags": [
         "pencil",
@@ -965,6 +1355,7 @@
     {
       "name": "egg",
       "component": "Egg",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "creative process",
@@ -976,6 +1367,7 @@
     {
       "name": "embedding",
       "component": "Embedding",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "vector",
@@ -988,6 +1380,7 @@
     {
       "name": "envelope-heart",
       "component": "EnvelopeHeart",
+      "aliases": [],
       "category": "Celebrate",
       "tags": [
         "love letter",
@@ -1000,6 +1393,7 @@
     {
       "name": "eraser",
       "component": "Eraser",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "rub",
@@ -1012,6 +1406,10 @@
     {
       "name": "error",
       "component": "Error",
+      "aliases": [
+        "AlertCircle",
+        "CircleAlert"
+      ],
       "category": "Interface",
       "tags": [
         "stop",
@@ -1024,6 +1422,7 @@
     {
       "name": "eval",
       "component": "Eval",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "test",
@@ -1036,6 +1435,10 @@
     {
       "name": "expand",
       "component": "Expand",
+      "aliases": [
+        "Maximize",
+        "Maximize2"
+      ],
       "category": "Interface",
       "tags": [
         "fullscreen",
@@ -1047,6 +1450,7 @@
     {
       "name": "external-link",
       "component": "ExternalLink",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "open",
@@ -1058,6 +1462,7 @@
     {
       "name": "eye",
       "component": "Eye",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "view",
@@ -1070,6 +1475,7 @@
     {
       "name": "eye-off",
       "component": "EyeOff",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "hide",
@@ -1082,6 +1488,7 @@
     {
       "name": "feather",
       "component": "Feather",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "light",
@@ -1094,6 +1501,7 @@
     {
       "name": "file",
       "component": "File",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "document",
@@ -1103,8 +1511,22 @@
       "move": "pop"
     },
     {
+      "name": "file-plus",
+      "component": "FilePlus",
+      "aliases": [],
+      "category": "Files",
+      "tags": [
+        "new file",
+        "add document",
+        "create",
+        "page"
+      ],
+      "move": "pop"
+    },
+    {
       "name": "file-text",
       "component": "FileText",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "document",
@@ -1117,6 +1539,7 @@
     {
       "name": "film",
       "component": "Film",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "clapperboard",
@@ -1129,6 +1552,7 @@
     {
       "name": "filter",
       "component": "Filter",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "funnel",
@@ -1140,6 +1564,7 @@
     {
       "name": "fine-tune",
       "component": "FineTune",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "tune",
@@ -1150,8 +1575,22 @@
       "move": "shake"
     },
     {
+      "name": "fingerprint",
+      "component": "Fingerprint",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "biometric",
+        "touch id",
+        "identity",
+        "unlock"
+      ],
+      "move": "beat"
+    },
+    {
       "name": "firework",
       "component": "Firework",
+      "aliases": [],
       "category": "Celebrate",
       "tags": [
         "new year",
@@ -1164,6 +1603,7 @@
     {
       "name": "flag",
       "component": "Flag",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "report",
@@ -1175,6 +1615,7 @@
     {
       "name": "flame",
       "component": "Flame",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "fire",
@@ -1187,6 +1628,7 @@
     {
       "name": "flask",
       "component": "Flask",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "science",
@@ -1199,6 +1641,7 @@
     {
       "name": "flower",
       "component": "Flower",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "tulip",
@@ -1211,6 +1654,7 @@
     {
       "name": "folder",
       "component": "Folder",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "directory"
@@ -1220,6 +1664,7 @@
     {
       "name": "folder-open",
       "component": "FolderOpen",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "directory",
@@ -1229,8 +1674,39 @@
       "move": "pop"
     },
     {
+      "name": "folder-plus",
+      "component": "FolderPlus",
+      "aliases": [],
+      "category": "Files",
+      "tags": [
+        "new folder",
+        "add directory",
+        "create",
+        "group"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "frown",
+      "component": "Frown",
+      "aliases": [
+        "Annoyed"
+      ],
+      "category": "Feelings",
+      "tags": [
+        "sad",
+        "unhappy",
+        "face",
+        "emoji"
+      ],
+      "move": "drop"
+    },
+    {
       "name": "gamepad",
       "component": "Gamepad",
+      "aliases": [
+        "Gamepad2"
+      ],
       "category": "Play",
       "tags": [
         "game",
@@ -1243,6 +1719,7 @@
     {
       "name": "gift",
       "component": "Gift",
+      "aliases": [],
       "category": "Celebrate",
       "tags": [
         "present",
@@ -1253,8 +1730,24 @@
       "move": "tilt"
     },
     {
+      "name": "git-branch",
+      "component": "GitBranch",
+      "aliases": [
+        "GitFork"
+      ],
+      "category": "Work",
+      "tags": [
+        "fork",
+        "version",
+        "merge",
+        "code"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "globe",
       "component": "Globe",
+      "aliases": [],
       "category": "Places",
       "tags": [
         "world",
@@ -1268,6 +1761,7 @@
     {
       "name": "graduation-cap",
       "component": "GraduationCap",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "graduate",
@@ -1280,6 +1774,9 @@
     {
       "name": "grid",
       "component": "Grid",
+      "aliases": [
+        "LayoutGrid"
+      ],
       "category": "Interface",
       "tags": [
         "apps",
@@ -1290,8 +1787,26 @@
       "move": "pop"
     },
     {
+      "name": "grip",
+      "component": "Grip",
+      "aliases": [
+        "GripVertical"
+      ],
+      "category": "Interface",
+      "tags": [
+        "drag",
+        "handle",
+        "reorder",
+        "move"
+      ],
+      "move": "bounce"
+    },
+    {
       "name": "growth",
       "component": "Growth",
+      "aliases": [
+        "TrendingUpDown"
+      ],
       "category": "Work",
       "tags": [
         "chart",
@@ -1304,6 +1819,7 @@
     {
       "name": "guardrail",
       "component": "Guardrail",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "safety",
@@ -1316,6 +1832,7 @@
     {
       "name": "guitar",
       "component": "Guitar",
+      "aliases": [],
       "category": "Hobbies",
       "tags": [
         "music",
@@ -1326,8 +1843,35 @@
       "move": "wiggle"
     },
     {
+      "name": "hammer",
+      "component": "Hammer",
+      "aliases": [],
+      "category": "Making",
+      "tags": [
+        "tool",
+        "build",
+        "construction",
+        "nail"
+      ],
+      "move": "nod"
+    },
+    {
+      "name": "hand",
+      "component": "Hand",
+      "aliases": [],
+      "category": "People",
+      "tags": [
+        "wave",
+        "hello",
+        "palm",
+        "stop"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "hand-off",
       "component": "HandOff",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "handover",
@@ -1338,8 +1882,22 @@
       "move": "rise"
     },
     {
+      "name": "hash",
+      "component": "Hash",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "pound",
+        "number sign",
+        "tag",
+        "channel"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "headphones",
       "component": "Headphones",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "audio",
@@ -1350,8 +1908,22 @@
       "move": "bounce"
     },
     {
+      "name": "headset",
+      "component": "Headset",
+      "aliases": [],
+      "category": "Communication",
+      "tags": [
+        "support",
+        "call centre",
+        "headphones",
+        "mic"
+      ],
+      "move": "bounce"
+    },
+    {
       "name": "heart",
       "component": "Heart",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "like",
@@ -1361,8 +1933,22 @@
       "move": "beat"
     },
     {
+      "name": "heart-pulse",
+      "component": "HeartPulse",
+      "aliases": [],
+      "category": "Feelings",
+      "tags": [
+        "health",
+        "heartbeat",
+        "vitals",
+        "care"
+      ],
+      "move": "beat"
+    },
+    {
       "name": "heart-spark",
       "component": "HeartSpark",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "love",
@@ -1375,6 +1961,10 @@
     {
       "name": "help",
       "component": "Help",
+      "aliases": [
+        "HelpCircle",
+        "CircleHelp"
+      ],
       "category": "Interface",
       "tags": [
         "question",
@@ -1384,8 +1974,24 @@
       "move": "wiggle"
     },
     {
+      "name": "history",
+      "component": "History",
+      "aliases": [],
+      "category": "Time",
+      "tags": [
+        "recent",
+        "past",
+        "undo",
+        "log"
+      ],
+      "move": "nod"
+    },
+    {
       "name": "home",
       "component": "Home",
+      "aliases": [
+        "House"
+      ],
       "category": "Interface",
       "tags": [
         "house"
@@ -1395,6 +2001,7 @@
     {
       "name": "hourglass",
       "component": "Hourglass",
+      "aliases": [],
       "category": "Time",
       "tags": [
         "wait",
@@ -1407,6 +2014,7 @@
     {
       "name": "ice-cream",
       "component": "IceCream",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "dessert",
@@ -1419,6 +2027,9 @@
     {
       "name": "id-card",
       "component": "IdCard",
+      "aliases": [
+        "Contact"
+      ],
       "category": "People",
       "tags": [
         "badge",
@@ -1431,6 +2042,10 @@
     {
       "name": "image",
       "component": "Image",
+      "aliases": [
+        "FileImage",
+        "ImagePlus"
+      ],
       "category": "Files",
       "tags": [
         "photo",
@@ -1442,6 +2057,7 @@
     {
       "name": "inbox",
       "component": "Inbox",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "tray",
@@ -1454,6 +2070,7 @@
     {
       "name": "infinity",
       "component": "Infinity",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "loop",
@@ -1466,6 +2083,7 @@
     {
       "name": "info",
       "component": "Info",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "information",
@@ -1477,6 +2095,7 @@
     {
       "name": "joystick",
       "component": "Joystick",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "arcade",
@@ -1489,6 +2108,7 @@
     {
       "name": "kanban",
       "component": "Kanban",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "board",
@@ -1501,6 +2121,7 @@
     {
       "name": "key",
       "component": "Key",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "password",
@@ -1512,6 +2133,7 @@
     {
       "name": "keyboard",
       "component": "Keyboard",
+      "aliases": [],
       "category": "Devices",
       "tags": [
         "keys",
@@ -1523,6 +2145,7 @@
     {
       "name": "kite",
       "component": "Kite",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "fly",
@@ -1535,6 +2158,7 @@
     {
       "name": "knowledge-base",
       "component": "KnowledgeBase",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "docs",
@@ -1547,6 +2171,7 @@
     {
       "name": "lantern",
       "component": "Lantern",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "light",
@@ -1558,6 +2183,7 @@
     {
       "name": "laptop",
       "component": "Laptop",
+      "aliases": [],
       "category": "Devices",
       "tags": [
         "computer",
@@ -1570,6 +2196,7 @@
     {
       "name": "layers",
       "component": "Layers",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "stack",
@@ -1582,6 +2209,7 @@
     {
       "name": "leaf",
       "component": "Leaf",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "plant",
@@ -1594,6 +2222,7 @@
     {
       "name": "lemon",
       "component": "Lemon",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "citrus",
@@ -1604,8 +2233,22 @@
       "move": "wiggle"
     },
     {
+      "name": "life-buoy",
+      "component": "LifeBuoy",
+      "aliases": [],
+      "category": "Places",
+      "tags": [
+        "help",
+        "rescue",
+        "support",
+        "safety"
+      ],
+      "move": "spin"
+    },
+    {
       "name": "lightbulb",
       "component": "Lightbulb",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "idea",
@@ -1615,8 +2258,24 @@
       "move": "blink"
     },
     {
+      "name": "line-chart",
+      "component": "LineChart",
+      "aliases": [
+        "ChartLine"
+      ],
+      "category": "Data",
+      "tags": [
+        "graph",
+        "trend",
+        "analytics",
+        "stats"
+      ],
+      "move": "rise"
+    },
+    {
       "name": "link",
       "component": "Link",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "chain",
@@ -1628,6 +2287,7 @@
     {
       "name": "list",
       "component": "List",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "rows",
@@ -1637,8 +2297,25 @@
       "move": "bounce"
     },
     {
+      "name": "loader",
+      "component": "Loader",
+      "aliases": [
+        "LoaderCircle",
+        "Loader2"
+      ],
+      "category": "Interface",
+      "tags": [
+        "spinner",
+        "loading",
+        "wait",
+        "progress"
+      ],
+      "move": "spin"
+    },
+    {
       "name": "lock",
       "component": "Lock",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "secure",
@@ -1650,6 +2327,7 @@
     {
       "name": "log-in",
       "component": "LogIn",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "sign in",
@@ -1661,6 +2339,7 @@
     {
       "name": "log-out",
       "component": "LogOut",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "sign out",
@@ -1672,6 +2351,10 @@
     {
       "name": "magic-wand",
       "component": "MagicWand",
+      "aliases": [
+        "Wand",
+        "WandSparkles"
+      ],
       "category": "Ideas",
       "tags": [
         "magic",
@@ -1683,6 +2366,9 @@
     {
       "name": "mail",
       "component": "Mail",
+      "aliases": [
+        "MailOpen"
+      ],
       "category": "Communication",
       "tags": [
         "email",
@@ -1695,6 +2381,7 @@
     {
       "name": "map",
       "component": "Map",
+      "aliases": [],
       "category": "Places",
       "tags": [
         "directions",
@@ -1707,6 +2394,9 @@
     {
       "name": "map-pin",
       "component": "MapPin",
+      "aliases": [
+        "MapPinned"
+      ],
       "category": "Places",
       "tags": [
         "location",
@@ -1719,6 +2409,7 @@
     {
       "name": "maze",
       "component": "Maze",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "labyrinth",
@@ -1730,6 +2421,7 @@
     {
       "name": "mcp-plug",
       "component": "McpPlug",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "mcp",
@@ -1742,6 +2434,9 @@
     {
       "name": "medal",
       "component": "Medal",
+      "aliases": [
+        "Award"
+      ],
       "category": "Feelings",
       "tags": [
         "award",
@@ -1754,6 +2449,7 @@
     {
       "name": "megaphone",
       "component": "Megaphone",
+      "aliases": [],
       "category": "Communication",
       "tags": [
         "announce",
@@ -1766,6 +2462,7 @@
     {
       "name": "memory",
       "component": "Memory",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "remember",
@@ -1778,6 +2475,7 @@
     {
       "name": "menu",
       "component": "Menu",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "hamburger",
@@ -1789,6 +2487,7 @@
     {
       "name": "mic",
       "component": "Mic",
+      "aliases": [],
       "category": "Communication",
       "tags": [
         "microphone",
@@ -1801,6 +2500,7 @@
     {
       "name": "mic-off",
       "component": "MicOff",
+      "aliases": [],
       "category": "Communication",
       "tags": [
         "muted",
@@ -1812,6 +2512,7 @@
     {
       "name": "microscope",
       "component": "Microscope",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "science",
@@ -1822,8 +2523,24 @@
       "move": "nod"
     },
     {
+      "name": "minimize",
+      "component": "Minimize",
+      "aliases": [
+        "Minimize2"
+      ],
+      "category": "Arrows",
+      "tags": [
+        "shrink",
+        "collapse",
+        "smaller",
+        "inward"
+      ],
+      "move": "squash"
+    },
+    {
       "name": "minus",
       "component": "Minus",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "remove",
@@ -1835,6 +2552,7 @@
     {
       "name": "monitor",
       "component": "Monitor",
+      "aliases": [],
       "category": "Devices",
       "tags": [
         "screen",
@@ -1847,6 +2565,7 @@
     {
       "name": "moon",
       "component": "Moon",
+      "aliases": [],
       "category": "Weather",
       "tags": [
         "night",
@@ -1859,6 +2578,7 @@
     {
       "name": "moon-stars",
       "component": "MoonStars",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "night",
@@ -1871,6 +2591,10 @@
     {
       "name": "more",
       "component": "More",
+      "aliases": [
+        "Ellipsis",
+        "MoreHorizontal"
+      ],
       "category": "Interface",
       "tags": [
         "dots",
@@ -1880,8 +2604,24 @@
       "move": "bounce"
     },
     {
+      "name": "more-vertical",
+      "component": "MoreVertical",
+      "aliases": [
+        "EllipsisVertical"
+      ],
+      "category": "Interface",
+      "tags": [
+        "dots",
+        "kebab",
+        "options",
+        "menu"
+      ],
+      "move": "bounce"
+    },
+    {
       "name": "mountain",
       "component": "Mountain",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "peak",
@@ -1894,6 +2634,7 @@
     {
       "name": "mountain-flag",
       "component": "MountainFlag",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "summit",
@@ -1906,6 +2647,7 @@
     {
       "name": "mouse",
       "component": "Mouse",
+      "aliases": [],
       "category": "Devices",
       "tags": [
         "pointer",
@@ -1915,8 +2657,22 @@
       "move": "bounce"
     },
     {
+      "name": "move",
+      "component": "Move",
+      "aliases": [],
+      "category": "Arrows",
+      "tags": [
+        "drag",
+        "pan",
+        "four way",
+        "reposition"
+      ],
+      "move": "pop"
+    },
+    {
       "name": "multi-agent",
       "component": "MultiAgent",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "team",
@@ -1929,6 +2685,7 @@
     {
       "name": "mushroom",
       "component": "Mushroom",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "toadstool",
@@ -1941,6 +2698,7 @@
     {
       "name": "music",
       "component": "Music",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "note",
@@ -1953,6 +2711,9 @@
     {
       "name": "mute",
       "component": "Mute",
+      "aliases": [
+        "VolumeX"
+      ],
       "category": "Media",
       "tags": [
         "silent",
@@ -1963,8 +2724,24 @@
       "move": "shake"
     },
     {
+      "name": "navigation",
+      "component": "Navigation",
+      "aliases": [
+        "Navigation2"
+      ],
+      "category": "Places",
+      "tags": [
+        "location",
+        "pointer",
+        "gps",
+        "direction"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "node-graph",
       "component": "NodeGraph",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "network",
@@ -1977,6 +2754,7 @@
     {
       "name": "notebook",
       "component": "Notebook",
+      "aliases": [],
       "category": "Learning",
       "tags": [
         "journal",
@@ -1989,6 +2767,7 @@
     {
       "name": "orb",
       "component": "Orb",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "ai",
@@ -1999,8 +2778,24 @@
       "move": "float"
     },
     {
+      "name": "package",
+      "component": "Package",
+      "aliases": [
+        "Box"
+      ],
+      "category": "Commerce",
+      "tags": [
+        "box",
+        "parcel",
+        "shipment",
+        "delivery"
+      ],
+      "move": "bounce"
+    },
+    {
       "name": "paintbrush",
       "component": "Paintbrush",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "paint",
@@ -2012,6 +2807,7 @@
     {
       "name": "palette",
       "component": "Palette",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "colour",
@@ -2024,6 +2820,7 @@
     {
       "name": "paper-plane",
       "component": "PaperPlane",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "send",
@@ -2036,6 +2833,7 @@
     {
       "name": "paperclip",
       "component": "Paperclip",
+      "aliases": [],
       "category": "Files",
       "tags": [
         "attach",
@@ -2047,6 +2845,7 @@
     {
       "name": "party-popper",
       "component": "PartyPopper",
+      "aliases": [],
       "category": "Celebrate",
       "tags": [
         "confetti",
@@ -2059,6 +2858,9 @@
     {
       "name": "pause",
       "component": "Pause",
+      "aliases": [
+        "CirclePause"
+      ],
       "category": "Media",
       "tags": [
         "hold",
@@ -2070,6 +2872,7 @@
     {
       "name": "pen-nib",
       "component": "PenNib",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "write",
@@ -2080,8 +2883,22 @@
       "move": "nod"
     },
     {
+      "name": "percent",
+      "component": "Percent",
+      "aliases": [],
+      "category": "Commerce",
+      "tags": [
+        "discount",
+        "sale",
+        "rate",
+        "ratio"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "phone",
       "component": "Phone",
+      "aliases": [],
       "category": "Communication",
       "tags": [
         "call",
@@ -2094,6 +2911,9 @@
     {
       "name": "pie-chart",
       "component": "PieChart",
+      "aliases": [
+        "ChartPie"
+      ],
       "category": "Data",
       "tags": [
         "chart",
@@ -2105,8 +2925,22 @@
       "move": "pop"
     },
     {
+      "name": "pill",
+      "component": "Pill",
+      "aliases": [],
+      "category": "Feelings",
+      "tags": [
+        "medicine",
+        "capsule",
+        "health",
+        "drug"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "pin",
       "component": "Pin",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "pushpin",
@@ -2118,6 +2952,7 @@
     {
       "name": "pizza",
       "component": "Pizza",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "slice",
@@ -2130,6 +2965,7 @@
     {
       "name": "plane",
       "component": "Plane",
+      "aliases": [],
       "category": "Places",
       "tags": [
         "flight",
@@ -2143,6 +2979,7 @@
     {
       "name": "planet",
       "component": "Planet",
+      "aliases": [],
       "category": "Space",
       "tags": [
         "saturn",
@@ -2155,6 +2992,7 @@
     {
       "name": "plant-pot",
       "component": "PlantPot",
+      "aliases": [],
       "category": "Hobbies",
       "tags": [
         "houseplant",
@@ -2167,6 +3005,9 @@
     {
       "name": "play",
       "component": "Play",
+      "aliases": [
+        "CirclePlay"
+      ],
       "category": "Media",
       "tags": [
         "start",
@@ -2179,6 +3020,9 @@
     {
       "name": "plug",
       "component": "Plug",
+      "aliases": [
+        "PlugZap"
+      ],
       "category": "Devices",
       "tags": [
         "power",
@@ -2191,6 +3035,7 @@
     {
       "name": "plus",
       "component": "Plus",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "add",
@@ -2202,6 +3047,10 @@
     {
       "name": "pointer",
       "component": "Pointer",
+      "aliases": [
+        "MousePointer",
+        "MousePointer2"
+      ],
       "category": "Making",
       "tags": [
         "cursor",
@@ -2214,6 +3063,7 @@
     {
       "name": "popsicle",
       "component": "Popsicle",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "ice lolly",
@@ -2226,6 +3076,7 @@
     {
       "name": "power",
       "component": "Power",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "on",
@@ -2238,6 +3089,7 @@
     {
       "name": "printer",
       "component": "Printer",
+      "aliases": [],
       "category": "Devices",
       "tags": [
         "print",
@@ -2249,6 +3101,7 @@
     {
       "name": "prompt",
       "component": "Prompt",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "input",
@@ -2261,6 +3114,7 @@
     {
       "name": "puzzle",
       "component": "Puzzle",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "piece",
@@ -2270,8 +3124,24 @@
       "move": "wiggle"
     },
     {
+      "name": "qr-code",
+      "component": "QrCode",
+      "aliases": [
+        "QrCode2"
+      ],
+      "category": "Devices",
+      "tags": [
+        "scan",
+        "barcode",
+        "code",
+        "link"
+      ],
+      "move": "pop"
+    },
+    {
       "name": "radar",
       "component": "Radar",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "scan",
@@ -2284,6 +3154,7 @@
     {
       "name": "rainbow",
       "component": "Rainbow",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "hope",
@@ -2296,6 +3167,7 @@
     {
       "name": "receipt",
       "component": "Receipt",
+      "aliases": [],
       "category": "Commerce",
       "tags": [
         "bill",
@@ -2308,6 +3180,7 @@
     {
       "name": "redo",
       "component": "Redo",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "forward",
@@ -2319,6 +3192,10 @@
     {
       "name": "refresh",
       "component": "Refresh",
+      "aliases": [
+        "RefreshCw",
+        "RotateCw"
+      ],
       "category": "Interface",
       "tags": [
         "reload",
@@ -2331,6 +3208,7 @@
     {
       "name": "repeat",
       "component": "Repeat",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "loop",
@@ -2342,6 +3220,7 @@
     {
       "name": "reply",
       "component": "Reply",
+      "aliases": [],
       "category": "Communication",
       "tags": [
         "respond",
@@ -2353,6 +3232,7 @@
     {
       "name": "retrieval",
       "component": "Retrieval",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "search",
@@ -2365,6 +3245,7 @@
     {
       "name": "retro-camera",
       "component": "RetroCamera",
+      "aliases": [],
       "category": "Hobbies",
       "tags": [
         "photo",
@@ -2377,6 +3258,9 @@
     {
       "name": "robot",
       "component": "Robot",
+      "aliases": [
+        "Bot"
+      ],
       "category": "AI & Agents",
       "tags": [
         "bot",
@@ -2389,6 +3273,7 @@
     {
       "name": "rocket",
       "component": "Rocket",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "launch",
@@ -2399,8 +3284,35 @@
       "move": "rise"
     },
     {
+      "name": "route",
+      "component": "Route",
+      "aliases": [],
+      "category": "Places",
+      "tags": [
+        "path",
+        "directions",
+        "journey",
+        "trip"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "ruler",
+      "component": "Ruler",
+      "aliases": [],
+      "category": "Making",
+      "tags": [
+        "measure",
+        "length",
+        "scale",
+        "design"
+      ],
+      "move": "tilt"
+    },
+    {
       "name": "ruler-pencil",
       "component": "RulerPencil",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "design",
@@ -2413,6 +3325,7 @@
     {
       "name": "sandbox",
       "component": "Sandbox",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "safe",
@@ -2423,8 +3336,37 @@
       "move": "squash"
     },
     {
+      "name": "save",
+      "component": "Save",
+      "aliases": [],
+      "category": "Files",
+      "tags": [
+        "floppy",
+        "disk",
+        "store",
+        "keep"
+      ],
+      "move": "drop"
+    },
+    {
+      "name": "scan",
+      "component": "Scan",
+      "aliases": [
+        "ScanLine"
+      ],
+      "category": "Interface",
+      "tags": [
+        "scanner",
+        "frame",
+        "capture",
+        "detect"
+      ],
+      "move": "bounce"
+    },
+    {
       "name": "scissors",
       "component": "Scissors",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "cut",
@@ -2436,6 +3378,7 @@
     {
       "name": "search",
       "component": "Search",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "find",
@@ -2447,6 +3390,7 @@
     {
       "name": "seed",
       "component": "Seed",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "creative process",
@@ -2458,6 +3402,9 @@
     {
       "name": "send",
       "component": "Send",
+      "aliases": [
+        "SendHorizontal"
+      ],
       "category": "Communication",
       "tags": [
         "paper plane",
@@ -2467,8 +3414,25 @@
       "move": "slide"
     },
     {
+      "name": "server",
+      "component": "Server",
+      "aliases": [],
+      "category": "Devices",
+      "tags": [
+        "host",
+        "rack",
+        "backend",
+        "hosting"
+      ],
+      "move": "bounce"
+    },
+    {
       "name": "settings",
       "component": "Settings",
+      "aliases": [
+        "Cog",
+        "Settings2"
+      ],
       "category": "Interface",
       "tags": [
         "gear",
@@ -2480,6 +3444,7 @@
     {
       "name": "shapes",
       "component": "Shapes",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "geometry",
@@ -2492,6 +3457,7 @@
     {
       "name": "share",
       "component": "Share",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "send",
@@ -2503,6 +3469,7 @@
     {
       "name": "shell",
       "component": "Shell",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "sea",
@@ -2513,8 +3480,37 @@
       "move": "wiggle"
     },
     {
+      "name": "shield",
+      "component": "Shield",
+      "aliases": [
+        "ShieldAlert"
+      ],
+      "category": "Interface",
+      "tags": [
+        "security",
+        "protect",
+        "safe",
+        "guard"
+      ],
+      "move": "squash"
+    },
+    {
+      "name": "shield-check",
+      "component": "ShieldCheck",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "verified",
+        "secure",
+        "safe",
+        "approved"
+      ],
+      "move": "pop"
+    },
+    {
       "name": "shooting-star",
       "component": "ShootingStar",
+      "aliases": [],
       "category": "Space",
       "tags": [
         "wish",
@@ -2527,6 +3523,7 @@
     {
       "name": "shuffle",
       "component": "Shuffle",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "random",
@@ -2536,8 +3533,37 @@
       "move": "wiggle"
     },
     {
+      "name": "sidebar",
+      "component": "Sidebar",
+      "aliases": [
+        "PanelLeft"
+      ],
+      "category": "Interface",
+      "tags": [
+        "panel",
+        "layout",
+        "drawer",
+        "navigation"
+      ],
+      "move": "slide"
+    },
+    {
+      "name": "signpost",
+      "component": "Signpost",
+      "aliases": [],
+      "category": "Places",
+      "tags": [
+        "direction",
+        "sign",
+        "way",
+        "directions"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "skateboard",
       "component": "Skateboard",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "skate",
@@ -2550,6 +3576,7 @@
     {
       "name": "sketchbook",
       "component": "Sketchbook",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "notebook",
@@ -2562,6 +3589,7 @@
     {
       "name": "skill-card",
       "component": "SkillCard",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "skills",
@@ -2574,6 +3602,7 @@
     {
       "name": "skip-back",
       "component": "SkipBack",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "previous",
@@ -2585,6 +3614,7 @@
     {
       "name": "skip-forward",
       "component": "SkipForward",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "next",
@@ -2596,6 +3626,9 @@
     {
       "name": "sliders",
       "component": "Sliders",
+      "aliases": [
+        "SlidersHorizontal"
+      ],
       "category": "Interface",
       "tags": [
         "controls",
@@ -2608,6 +3641,7 @@
     {
       "name": "smartphone",
       "component": "Smartphone",
+      "aliases": [],
       "category": "Devices",
       "tags": [
         "phone",
@@ -2620,6 +3654,9 @@
     {
       "name": "smile",
       "component": "Smile",
+      "aliases": [
+        "SmilePlus"
+      ],
       "category": "People",
       "tags": [
         "happy",
@@ -2632,6 +3669,7 @@
     {
       "name": "smile-sun",
       "component": "SmileSun",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "happy",
@@ -2644,6 +3682,7 @@
     {
       "name": "snow-globe",
       "component": "SnowGlobe",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "world",
@@ -2658,6 +3697,7 @@
     {
       "name": "snowflake",
       "component": "Snowflake",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "winter",
@@ -2670,6 +3710,7 @@
     {
       "name": "sort",
       "component": "Sort",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "order",
@@ -2681,6 +3722,7 @@
     {
       "name": "spark-burst",
       "component": "SparkBurst",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "pop",
@@ -2692,6 +3734,9 @@
     {
       "name": "sparkles",
       "component": "Sparkles",
+      "aliases": [
+        "Sparkle"
+      ],
       "category": "AI & Agents",
       "tags": [
         "ai",
@@ -2702,8 +3747,22 @@
       "move": "pop"
     },
     {
+      "name": "speaker",
+      "component": "Speaker",
+      "aliases": [],
+      "category": "Devices",
+      "tags": [
+        "audio",
+        "sound",
+        "music",
+        "woofer"
+      ],
+      "move": "beat"
+    },
+    {
       "name": "spray-can",
       "component": "SprayCan",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "graffiti",
@@ -2716,6 +3775,7 @@
     {
       "name": "sprout",
       "component": "Sprout",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "grow",
@@ -2728,6 +3788,7 @@
     {
       "name": "stairs",
       "component": "Stairs",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "steps",
@@ -2740,6 +3801,7 @@
     {
       "name": "stamp",
       "component": "Stamp",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "approve",
@@ -2752,6 +3814,7 @@
     {
       "name": "star",
       "component": "Star",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "favourite",
@@ -2764,6 +3827,7 @@
     {
       "name": "steering-wheel",
       "component": "SteeringWheel",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "drive",
@@ -2776,6 +3840,7 @@
     {
       "name": "sticky-note",
       "component": "StickyNote",
+      "aliases": [],
       "category": "Making",
       "tags": [
         "memo",
@@ -2788,6 +3853,9 @@
     {
       "name": "stop",
       "component": "Stop",
+      "aliases": [
+        "CircleStop"
+      ],
       "category": "Media",
       "tags": [
         "end",
@@ -2799,6 +3867,7 @@
     {
       "name": "stopwatch",
       "component": "Stopwatch",
+      "aliases": [],
       "category": "Time",
       "tags": [
         "timer",
@@ -2811,6 +3880,7 @@
     {
       "name": "store",
       "component": "Store",
+      "aliases": [],
       "category": "Commerce",
       "tags": [
         "shop",
@@ -2821,8 +3891,24 @@
       "move": "pop"
     },
     {
+      "name": "storm",
+      "component": "Storm",
+      "aliases": [
+        "CloudLightning"
+      ],
+      "category": "Weather",
+      "tags": [
+        "thunderstorm",
+        "lightning",
+        "rain",
+        "forecast"
+      ],
+      "move": "shake"
+    },
+    {
       "name": "sun",
       "component": "Sun",
+      "aliases": [],
       "category": "Weather",
       "tags": [
         "sunny",
@@ -2836,6 +3922,7 @@
     {
       "name": "sunrise",
       "component": "Sunrise",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "morning",
@@ -2846,8 +3933,35 @@
       "move": "rise"
     },
     {
+      "name": "table",
+      "component": "Table",
+      "aliases": [],
+      "category": "Data",
+      "tags": [
+        "grid",
+        "spreadsheet",
+        "rows",
+        "cells"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "tablet",
+      "component": "Tablet",
+      "aliases": [],
+      "category": "Devices",
+      "tags": [
+        "ipad",
+        "screen",
+        "slate",
+        "mobile"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "tag",
       "component": "Tag",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "label",
@@ -2859,6 +3973,7 @@
     {
       "name": "target",
       "component": "Target",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "goal",
@@ -2871,6 +3986,7 @@
     {
       "name": "tea",
       "component": "Tea",
+      "aliases": [],
       "category": "Food",
       "tags": [
         "cup",
@@ -2883,6 +3999,7 @@
     {
       "name": "tear",
       "component": "Tear",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "cry",
@@ -2895,6 +4012,7 @@
     {
       "name": "telescope",
       "component": "Telescope",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "explore",
@@ -2906,6 +4024,7 @@
     {
       "name": "tent",
       "component": "Tent",
+      "aliases": [],
       "category": "Hobbies",
       "tags": [
         "camping",
@@ -2918,6 +4037,7 @@
     {
       "name": "terminal",
       "component": "Terminal",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "agents",
@@ -2928,8 +4048,22 @@
       "move": "blink"
     },
     {
+      "name": "thermometer",
+      "component": "Thermometer",
+      "aliases": [],
+      "category": "Weather",
+      "tags": [
+        "temperature",
+        "heat",
+        "fever",
+        "degrees"
+      ],
+      "move": "squash"
+    },
+    {
       "name": "thought-bubble",
       "component": "ThoughtBubble",
+      "aliases": [],
       "category": "Ideas",
       "tags": [
         "thinking",
@@ -2941,6 +4075,7 @@
     {
       "name": "thumbs-down",
       "component": "ThumbsDown",
+      "aliases": [],
       "category": "People",
       "tags": [
         "dislike",
@@ -2953,6 +4088,7 @@
     {
       "name": "thumbs-up",
       "component": "ThumbsUp",
+      "aliases": [],
       "category": "People",
       "tags": [
         "like",
@@ -2965,6 +4101,7 @@
     {
       "name": "ticket",
       "component": "Ticket",
+      "aliases": [],
       "category": "Celebrate",
       "tags": [
         "event",
@@ -2975,8 +4112,35 @@
       "move": "tilt"
     },
     {
+      "name": "timer",
+      "component": "Timer",
+      "aliases": [],
+      "category": "Time",
+      "tags": [
+        "countdown",
+        "stopwatch",
+        "duration",
+        "clock"
+      ],
+      "move": "ring"
+    },
+    {
+      "name": "toggle",
+      "component": "Toggle",
+      "aliases": [],
+      "category": "Interface",
+      "tags": [
+        "switch",
+        "on off",
+        "setting",
+        "flip"
+      ],
+      "move": "slide"
+    },
+    {
       "name": "token",
       "component": "Token",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "coin",
@@ -2989,6 +4153,7 @@
     {
       "name": "tomato-timer",
       "component": "TomatoTimer",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "pomodoro",
@@ -3001,6 +4166,7 @@
     {
       "name": "toolbox",
       "component": "Toolbox",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "tools",
@@ -3013,6 +4179,9 @@
     {
       "name": "trash",
       "component": "Trash",
+      "aliases": [
+        "Trash2"
+      ],
       "category": "Interface",
       "tags": [
         "delete",
@@ -3024,6 +4193,7 @@
     {
       "name": "tree",
       "component": "Tree",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "forest",
@@ -3034,8 +4204,22 @@
       "move": "wiggle"
     },
     {
+      "name": "trending-down",
+      "component": "TrendingDown",
+      "aliases": [],
+      "category": "Data",
+      "tags": [
+        "decrease",
+        "loss",
+        "drop",
+        "decline"
+      ],
+      "move": "drop"
+    },
+    {
       "name": "trending-up",
       "component": "TrendingUp",
+      "aliases": [],
       "category": "Data",
       "tags": [
         "growth",
@@ -3049,6 +4233,7 @@
     {
       "name": "trophy",
       "component": "Trophy",
+      "aliases": [],
       "category": "Work",
       "tags": [
         "win",
@@ -3061,6 +4246,7 @@
     {
       "name": "truck",
       "component": "Truck",
+      "aliases": [],
       "category": "Commerce",
       "tags": [
         "delivery",
@@ -3071,8 +4257,22 @@
       "move": "slide"
     },
     {
+      "name": "tv",
+      "component": "Tv",
+      "aliases": [],
+      "category": "Devices",
+      "tags": [
+        "television",
+        "screen",
+        "watch",
+        "retro"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "two-hearts",
       "component": "TwoHearts",
+      "aliases": [],
       "category": "Feelings",
       "tags": [
         "love",
@@ -3085,6 +4285,7 @@
     {
       "name": "ufo",
       "component": "Ufo",
+      "aliases": [],
       "category": "Space",
       "tags": [
         "alien",
@@ -3097,6 +4298,7 @@
     {
       "name": "umbrella",
       "component": "Umbrella",
+      "aliases": [],
       "category": "Weather",
       "tags": [
         "rain",
@@ -3109,6 +4311,7 @@
     {
       "name": "undo",
       "component": "Undo",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "back",
@@ -3120,6 +4323,7 @@
     {
       "name": "unlock",
       "component": "Unlock",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "open",
@@ -3131,6 +4335,7 @@
     {
       "name": "upload",
       "component": "Upload",
+      "aliases": [],
       "category": "Arrows",
       "tags": [
         "send",
@@ -3142,6 +4347,9 @@
     {
       "name": "user",
       "component": "User",
+      "aliases": [
+        "UserRound"
+      ],
       "category": "People",
       "tags": [
         "person",
@@ -3152,8 +4360,50 @@
       "move": "bounce"
     },
     {
+      "name": "user-check",
+      "component": "UserCheck",
+      "aliases": [],
+      "category": "People",
+      "tags": [
+        "verified",
+        "approved",
+        "member",
+        "confirmed"
+      ],
+      "move": "pop"
+    },
+    {
+      "name": "user-circle",
+      "component": "UserCircle",
+      "aliases": [
+        "CircleUser"
+      ],
+      "category": "People",
+      "tags": [
+        "avatar",
+        "profile",
+        "account",
+        "me"
+      ],
+      "move": "bounce"
+    },
+    {
+      "name": "user-minus",
+      "component": "UserMinus",
+      "aliases": [],
+      "category": "People",
+      "tags": [
+        "remove",
+        "unfollow",
+        "less",
+        "leave"
+      ],
+      "move": "squash"
+    },
+    {
       "name": "user-plus",
       "component": "UserPlus",
+      "aliases": [],
       "category": "People",
       "tags": [
         "add user",
@@ -3164,8 +4414,22 @@
       "move": "pop"
     },
     {
+      "name": "user-x",
+      "component": "UserX",
+      "aliases": [],
+      "category": "People",
+      "tags": [
+        "remove",
+        "blocked",
+        "ban",
+        "delete user"
+      ],
+      "move": "shake"
+    },
+    {
       "name": "users",
       "component": "Users",
+      "aliases": [],
       "category": "People",
       "tags": [
         "people",
@@ -3178,6 +4442,7 @@
     {
       "name": "video",
       "component": "Video",
+      "aliases": [],
       "category": "Media",
       "tags": [
         "camcorder",
@@ -3190,6 +4455,7 @@
     {
       "name": "video-call",
       "component": "VideoCall",
+      "aliases": [],
       "category": "Communication",
       "tags": [
         "meeting",
@@ -3202,6 +4468,7 @@
     {
       "name": "vinyl",
       "component": "Vinyl",
+      "aliases": [],
       "category": "Hobbies",
       "tags": [
         "record",
@@ -3214,6 +4481,7 @@
     {
       "name": "vision",
       "component": "Vision",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "see",
@@ -3226,6 +4494,7 @@
     {
       "name": "voice-agent",
       "component": "VoiceAgent",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "voice",
@@ -3238,6 +4507,9 @@
     {
       "name": "volume",
       "component": "Volume",
+      "aliases": [
+        "Volume2"
+      ],
       "category": "Media",
       "tags": [
         "sound",
@@ -3250,6 +4522,7 @@
     {
       "name": "wallet",
       "component": "Wallet",
+      "aliases": [],
       "category": "Commerce",
       "tags": [
         "money",
@@ -3262,6 +4535,10 @@
     {
       "name": "warning",
       "component": "Warning",
+      "aliases": [
+        "AlertTriangle",
+        "TriangleAlert"
+      ],
       "category": "Interface",
       "tags": [
         "caution",
@@ -3272,8 +4549,22 @@
       "move": "shake"
     },
     {
+      "name": "watch",
+      "component": "Watch",
+      "aliases": [],
+      "category": "Devices",
+      "tags": [
+        "smartwatch",
+        "wearable",
+        "time",
+        "wrist"
+      ],
+      "move": "spin"
+    },
+    {
       "name": "wave",
       "component": "Wave",
+      "aliases": [],
       "category": "Nature",
       "tags": [
         "sea",
@@ -3286,6 +4577,7 @@
     {
       "name": "waveform",
       "component": "Waveform",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "audio",
@@ -3298,6 +4590,7 @@
     {
       "name": "wifi",
       "component": "Wifi",
+      "aliases": [],
       "category": "Devices",
       "tags": [
         "wireless",
@@ -3308,8 +4601,35 @@
       "move": "pop"
     },
     {
+      "name": "wifi-off",
+      "component": "WifiOff",
+      "aliases": [],
+      "category": "Devices",
+      "tags": [
+        "offline",
+        "no signal",
+        "disconnected",
+        "network"
+      ],
+      "move": "shake"
+    },
+    {
+      "name": "wind",
+      "component": "Wind",
+      "aliases": [],
+      "category": "Weather",
+      "tags": [
+        "breeze",
+        "air",
+        "gust",
+        "windy"
+      ],
+      "move": "slide"
+    },
+    {
       "name": "workflow",
       "component": "Workflow",
+      "aliases": [],
       "category": "AI & Agents",
       "tags": [
         "flow",
@@ -3320,8 +4640,23 @@
       "move": "bounce"
     },
     {
+      "name": "wrench",
+      "component": "Wrench",
+      "aliases": [],
+      "category": "Making",
+      "tags": [
+        "tool",
+        "fix",
+        "repair",
+        "spanner",
+        "settings"
+      ],
+      "move": "wiggle"
+    },
+    {
       "name": "yo-yo",
       "component": "YoYo",
+      "aliases": [],
       "category": "Play",
       "tags": [
         "toy",
@@ -3334,6 +4669,7 @@
     {
       "name": "zoom-in",
       "component": "ZoomIn",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "magnify",
@@ -3345,6 +4681,7 @@
     {
       "name": "zoom-out",
       "component": "ZoomOut",
+      "aliases": [],
       "category": "Interface",
       "tags": [
         "magnify",

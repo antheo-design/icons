@@ -1,6 +1,6 @@
 {
   "name": "@antheo/tufted-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "280 felt icons for React: each one cut from felt and laid on a felt tile, with fuzzy edges and a soft shadow, and a little move on hover.",
   "keywords": ["icons", "react", "svg", "animated-icons", "icon-set", "felt", "tufted", "textile", "antheo"],
   "license": "SEE LICENSE IN LICENSE",

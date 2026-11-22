@@ -5,6 +5,7 @@ Everything here applies to both packages unless it says otherwise. Examples use 
 
 - [Install](#install)
 - [Using an icon](#using-an-icon)
+- [Coming from Lucide](#coming-from-lucide)
 - [Colours and dark mode](#colours-and-dark-mode)
 - [Hover, and hovering a parent](#hover-and-hovering-a-parent)
 - [Next.js and server rendering](#nextjs-and-server-rendering)
@@ -44,6 +45,23 @@ so on) goes on it, and a `ref` reaches the `<svg>` element.
 ```
 
 `size` takes a number (pixels) or any CSS length, such as `"1.5em"` to scale with the text around it.
+
+## Coming from Lucide
+
+The common icons also answer to the names Lucide and similar sets use, so most imports work after changing only the
+package name:
+
+```tsx
+// before
+import { X, AlertTriangle, Bot, ShoppingCart, Zap, Pencil } from 'lucide-react';
+// after
+import { X, AlertTriangle, Bot, ShoppingCart, Zap, Pencil } from '@antheo/painted-icons';
+```
+
+These are the same components as our own names (`X` is `Close`, `Bot` is `Robot`, `Zap` is `Bolt`). Each icon's other
+names are listed under `aliases` in `icons.json`. Props differ a little: `size` works the same, `ink` replaces
+`color` for the line, and `color` is the plate behind it. `strokeWidth` has no effect: the brush and the felt have
+their own weight.
 
 ## Colours and dark mode
 
@@ -123,7 +141,7 @@ import data from '@antheo/painted-icons/icons.json' with { type: 'json' };
 data.icons[0]; // { name, component, category, tags, move }
 ```
 
-Importing every icon at once (`import * as Icons`) works, but it puts all 281 in your bundle. Prefer named imports.
+Importing every icon at once (`import * as Icons`) works, but it puts all 350 in your bundle. Prefer named imports.
 
 ## SVG files, CDNs and non-React projects
 
